@@ -1,0 +1,12 @@
+{
+  "logoDark": {
+    "src": "/assets/images/logo-dark.png",
+    "alt": "",
+    "title": ""
+  },
+  "logoLight": {
+    "src": "/assets/images/logo-light.png",
+    "alt": "",
+    "title": ""
+  }
+}

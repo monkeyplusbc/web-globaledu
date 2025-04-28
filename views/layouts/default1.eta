@@ -1,0 +1,13 @@
+  <%layout(`base/${it.view?.base||'default'}`)%>
+
+   <%{vue%>
+    <organisms-header1 />
+  <% vue} %>
+
+  <%~ it.body%>
+
+  <%{vue%>
+    <organisms-footer1 />
+    <molecules-cookies />
+    <molecules-cookies-dialog />
+  <% vue} %>

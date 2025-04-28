@@ -1,0 +1,27 @@
+{
+  "active": false,
+  "pretitle": "Lorem ipsum",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "txt": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis.<br>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.",
+  "btn": {
+    "txt": "Botón",
+    "link": {
+      "url": "#",
+      "type": "a"
+    }
+  },
+  "items": [
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "txt": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "txt": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "txt": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    }
+  ]
+}

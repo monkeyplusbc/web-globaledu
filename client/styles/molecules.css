@@ -1,0 +1,43 @@
+/* Moléculas */
+.cookies{
+    @apply fixed top-0 left-0 w-full h-full bg-black z-[-1] bg-opacity-0 items-end pb-5 duration-[0.5s] flex;
+    .card{
+        @apply bg-white w-full p-6 text-black rounded-[15px] relative -bottom-[800px] duration-[0.5s];
+        .title{
+            @apply leading-5 text-[1.6rem] font-medium py-5;
+        }
+        .txt{
+            @apply leading-5 text-[1.2rem] font-normal pb-5;
+        }
+    }
+    &.active{
+        @apply z-[120] bg-opacity-50;
+        .card{
+            @apply bottom-0 delay-[0.5s];
+        }
+    }
+}
+
+.cookie-customization-dialog{
+    @apply fixed top-0 left-0 w-full h-full bg-black items-center justify-center pb-5 z-[-1] bg-opacity-0 duration-[0.5s];
+    .cookie-consent-content{
+        @apply bg-white rounded-[15px] p-10 opacity-0 duration-[0.5s];
+        .title{
+            @apply leading-5 text-[1.6rem] font-medium pb-5;
+        }
+        form{
+            label{
+                @apply ml-0;
+            }
+        }
+        button{
+            @apply bg-gray-400 text-white rounded-[5px] px-5 py-1 mt-5;
+        }
+    }
+    &.active{
+        @apply z-[120] bg-opacity-50;
+        .cookie-consent-content{
+            @apply opacity-100 delay-[0.5s];
+        }
+    }
+}

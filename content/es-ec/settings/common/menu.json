@@ -1,0 +1,128 @@
+{
+  "title": "Menú",
+  "items": [
+    {
+      "txt": "Inicio",
+      "link": {
+        "url": "home1",
+        "type": "mk"
+      },
+      "submenu": [],
+      "header": true
+    },
+    {
+      "txt": "Nosotros",
+      "link": {
+        "url": "about1",
+        "type": "mk"
+      },
+      "submenu": [],
+      "header": true
+    },
+    {
+      "txt": "Soluciones",
+      "link": {
+        "url": "project1",
+        "type": "mk"
+      },
+      "submenu": [
+        {
+          "txt": "EG Educación Global",
+          "link": {
+            "url": "/soluciones/eg-educacion-global",
+            "type": "a"
+          }
+        },
+        {
+          "txt": "DB Consulting",
+          "link": {
+            "url": "/soluciones/db-consulting",
+            "type": "a"
+          }
+        },
+        {
+          "txt": "Starters Academy",
+          "link": {
+            "url": "/soluciones/starters-academy",
+            "type": "a"
+          }
+        },
+        {
+          "txt": "Unihabitat",
+          "link": {
+            "url": "/soluciones/unihabitat",
+            "type": "a"
+          }
+        }
+      ],
+      "header": true
+    },
+    {
+      "txt": "Blog",
+      "link": {
+        "url": "blog1",
+        "type": "mk"
+      },
+      "submenu": [],
+      "header": true
+    },
+    {
+      "txt": "Contactos",
+      "link": {
+        "url": "contact1",
+        "type": "mk"
+      },
+      "submenu": [],
+      "header": true
+    }
+  ],
+  "languajes": {
+    "active": false,
+    "items": [
+      {
+        "txt": "EN",
+        "link": {
+          "url": "/en/",
+          "type": "a"
+        }
+      },
+      {
+        "txt": "ES",
+        "link": {
+          "url": "/",
+          "type": "a"
+        }
+      }
+    ]
+  },
+  "help": {
+    "active": true,
+    "icon": "material-symbols:info",
+    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet sem vitae neque facilisis fermentum.",
+    "contact": {
+      "title": "Información de contacto",
+      "address": "Moonshine St. 14/05 Light City, London",
+      "email": "info@email.com",
+      "phone": "+593 99 9999 999"
+    },
+    "terms": {
+      "title": "Más información",
+      "items": [
+        {
+          "txt": "Términos y condiciones",
+          "link": {
+            "url": "#",
+            "type": "a"
+          }
+        },
+        {
+          "txt": "Políticas de privacidad",
+          "link": {
+            "url": "#",
+            "type": "a"
+          }
+        }
+      ]
+    }
+  }
+}

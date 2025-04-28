@@ -1,0 +1,17 @@
+{
+  "active": true,
+  "image": {
+    "src": "/assets/images/illustrations/i2.png",
+    "alt": "",
+    "title": ""
+  },
+  "title": "Global Edu Group: Tu puente hacia Portugal y Europa.",
+  "txt": "Somos un grupo internacional que acompaña a estudiantes, profesionales y familias desde Latinoamérica hacia una vida nueva en Europa, con servicios educativos, migratorios, lingüísticos y de alojamiento.",
+  "btn": {
+    "txt": "Conoce nuestras soluciones",
+    "link": {
+      "url": "project1",
+      "type": "mk"
+    }
+  }
+}

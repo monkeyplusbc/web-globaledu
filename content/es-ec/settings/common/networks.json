@@ -1,0 +1,37 @@
+{
+  "title": "Siguenos",
+  "items": [
+    {
+      "icon": "uil:facebook-f",
+      "link": {
+        "url": "#",
+        "type": "a",
+        "blank": true
+      }
+    },
+    {
+      "icon": "uil:instagram",
+      "link": {
+        "url": "#",
+        "type": "a",
+        "blank": true
+      }
+    },
+    {
+      "icon": "uil:linkedin",
+      "link": {
+        "url": "#",
+        "type": "a",
+        "blank": true
+      }
+    },
+    {
+      "icon": "uil:whatsapp",
+      "link": {
+        "url": "#",
+        "type": "a",
+        "blank": true
+      }
+    }
+  ]
+}

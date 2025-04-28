@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "image": "https://dominio.com/images/meta.jpg",
+    "@id": "https://dominio.com",
+    "name": "Volrisk",
+    "url": "https://dominio.com",
+    "telephone": "(+593) 2-382-5670",
+    "sameAs": [
+      "https://www.facebook.com/", 
+      "https://www.instagram.com/",
+      "https://www.linkedin.com/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": ,
+      "longitude": 
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Lunes",
+          "Martes",
+          "Miércoles",
+          "Jueves",
+          "Viernes"
+        ],
+        "opens": "9:00",
+        "closes": "18:00"
+      }
+    ]
+  }
+</script>

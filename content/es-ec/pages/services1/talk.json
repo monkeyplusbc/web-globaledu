@@ -1,0 +1,111 @@
+{
+  "active": true,
+  "pricing": {
+    "settings": {
+      "month": "Mensual",
+      "year": "Anual",
+      "save": "(Ahorro del 10%)"
+    },
+    "pretitle": "Lorem ipsum",
+    "title": "Lorem ipsum dolor sit amet, consectetur.",
+    "txt": "Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna.",
+    "btn": {
+      "txt": "Botón",
+      "link": {
+        "url": "#",
+        "type": "a"
+      }
+    },
+    "items": [
+      {
+        "monthPrice": "19",
+        "yearPrice": "199",
+        "plan": "Lorem ipsumen",
+        "items": [
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          }
+        ],
+        "btn": {
+          "txt": "Botón",
+          "link": {
+            "url": "#",
+            "type": "a"
+          }
+        }
+      },
+      {
+        "monthPrice": "19",
+        "yearPrice": "199",
+        "plan": "Lorem ipsumen",
+        "items": [
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          },
+          {
+            "txt": "Ipsumen lorem"
+          }
+        ],
+        "btn": {
+          "txt": "Botón",
+          "link": {
+            "url": "#",
+            "type": "a"
+          }
+        }
+      }
+    ]
+  },
+  "galleryImages": {
+    "image1": {
+      "src": "/assets/images/photos/g5.jpg",
+      "alt": "",
+      "title": ""
+    },
+    "image2": {
+      "src": "/assets/images/photos/g6.jpg",
+      "alt": "",
+      "title": ""
+    }
+  },
+  "satisfiedCustomers": {
+    "count": "5000+",
+    "label": "Satisfied Customers"
+  },
+  "letsTalk": {
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut <span class=\"relative z-[2] whitespace-nowrap after:content-[''] after:block after:absolute after:w-[102.5%] after:h-[30%] after:left-[-1.5%] after:z-[-1] after:transition-all after:duration-[0.2s] after:ease-in-out after:mt-0 after:rounded-[5rem] after:bottom-[9%] motion-reduce:after:transition-none after:bg-[rgba(63,120,224,.12)]\">labore et dolore</span> magna.",
+    "additionalText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.",
+    "btn": {
+      "link": "#",
+      "text": "Lorem Ipsum"
+    }
+  }
+}

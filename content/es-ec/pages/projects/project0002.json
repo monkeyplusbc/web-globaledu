@@ -1,0 +1,49 @@
+{
+  "url": "db-consulting",
+  "category": "Servicios Migratorios",
+  "date": "28 Abr 2025",
+  "client": "DB Consulting",
+  "linkProject": "",
+  "title": "DB Consulting: Tu camino seguro a Portugal",
+  "image": {
+    "src": "/assets/images/photos/b1.jpg",
+    "alt": "DB Consulting - Consultora Migratoria Portugal",
+    "title": "DB Consulting"
+  },
+  "seo": {
+    "title": "DB Consulting: Consultora Migratoria para Portugal",
+    "description": "DB Consulting: Expertos en programas de visado, planificación documental y acompañamiento integral para establecerse en Portugal de forma segura y estructurada.",
+    "keywords": "consultora migratoria, portugal, visado portugal, residencia portugal, planificación documental, inmigración portugal, mudarse a portugal",
+    "imageSocial": "/assets/images/photos/b1.jpg",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Documentos de visado para Portugal",
+      "title": "Proceso de Visado Portugal"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Ciudad de Lisboa, Portugal",
+      "title": "Establecerse en Portugal"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Asesoramiento migratorio personalizado",
+      "title": "Acompañamiento Integral"
+    }
+  ],
+  "about": [
+    {
+      "type": "p",
+      "content": "DB Consulting es tu consultora migratoria de confianza para hacer realidad tu proyecto de vida en Portugal. Ofrecemos programas de visado personalizados, diseñados para quienes desean establecerse en el país de forma segura y cumpliendo con todos los requisitos legales."
+    },
+    {
+      "type": "p",
+      "content": "Nuestro equipo experto te brinda un acompañamiento integral en cada etapa del proceso. Desde la planificación y preparación de la documentación necesaria hasta el asesoramiento continuo durante tu adaptación en Portugal, estamos comprometidos a hacer tu transición lo más fluida y estructurada posible."
+    }
+  ]
+}

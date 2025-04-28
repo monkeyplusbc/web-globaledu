@@ -1,0 +1,49 @@
+{
+  "url": "starters-academy",
+  "category": "Educación de Idiomas",
+  "date": "28 Abr 2025",
+  "client": "Starters Academy",
+  "linkProject": "",
+  "title": "Starters Academy: Aprende portugués europeo e italiano online",
+  "image": {
+    "src": "/assets/images/photos/b1.jpg",
+    "alt": "Starters Academy - Academia de idiomas online",
+    "title": "Starters Academy"
+  },
+  "seo": {
+    "title": "Starters Academy: Cursos online de portugués europeo e italiano",
+    "description": "Starters Academy: Academia de idiomas online especializada en portugués europeo con profesores nativos de Portugal. También ofrecemos formación básica en italiano.",
+    "keywords": "academia de idiomas, portugués europeo, italiano, cursos online, profesores nativos, aprender portugués, aprender italiano, formación de idiomas",
+    "imageSocial": "/assets/images/photos/b1.jpg",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Clase online de portugués europeo",
+      "title": "Aprende portugués con nativos"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Clase online de italiano básico",
+      "title": "Iniciación al italiano"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Profesores nativos desde Portugal",
+      "title": "Profesores nativos europeos"
+    }
+  ],
+  "about": [
+    {
+      "type": "p",
+      "content": "Starters Academy es tu academia de idiomas online especializada en llevar el portugués europeo directamente a ti. Ofrecemos cursos en vivo y dinámicos, impartidos por profesores nativos apasionados desde Portugal, garantizando una inmersión lingüística auténtica."
+    },
+    {
+      "type": "p",
+      "content": "Además de nuestra especialización en portugués europeo, también te brindamos la oportunidad de dar tus primeros pasos en el fascinante idioma italiano. Nuestra formación básica te proporcionará las herramientas fundamentales para comenzar tu viaje lingüístico en Italia."
+    }
+  ]
+}

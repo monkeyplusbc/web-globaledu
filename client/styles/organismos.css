@@ -1,0 +1,21 @@
+/* Organismos */
+#single-blog {
+  .banner {
+    @apply relative;
+  }
+
+  .title {
+    @apply h2;
+  }
+
+  .parrafo,
+  .list li {
+    @apply text-[17px] lg:text-[20px] font-normal pb-[20px] text-justify;
+  }
+
+  .content {
+    a {
+      @apply text-primary font-bold;
+    }
+  }
+}

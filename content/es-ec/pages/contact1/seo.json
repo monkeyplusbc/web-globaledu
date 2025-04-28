@@ -1,0 +1,10 @@
+{
+  "title": "Title",
+  "description": "Descripción",
+  "keywords": "Keywords",
+  "imageSocial": {
+    "src": "/images/shared/meta.jpg",
+    "alt": "",
+    "title": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "active": false,
+  "image": {
+    "src": "/assets/images/illustrations/i5.png",
+    "alt": "",
+    "title": ""
+  },
+  "pretitle": "Lorem ipsum",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "txt": "Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod.",
+  "btn": {
+    "txt": "Botón",
+    "link": {
+      "url": "#",
+      "type": "a"
+    }
+  },
+  "items": [
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/brands/c1.png",
+        "alt": "",
+        "title": ""
+      }
+    }
+  ]
+}

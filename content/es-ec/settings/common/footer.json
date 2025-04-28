@@ -1,0 +1,29 @@
+{
+  "copyrigth": "© 2024 Sandbox.<br>Todos los derechos reservadoas.",
+  "suscribe": {
+    "title": "¡Suscríbete a nuestro boletín informativo!",
+    "txt": "Nam pharetra leo sodales dui pharetra, sed sodales justo rhoncus. Maecenas scelerisque facilisis turpis quis porttitor.",
+    "form": {
+      "inputs": [
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Correo electrónico",
+          "error": "Correo electrónico",
+          "rules": "required|email"
+        }
+      ],
+      "btn": "Enviar"
+    }
+  },
+  "cta": {
+    "txt": "Nam pharetra leo sodales dui pharetra, sed sodales justo rhoncus.",
+    "btn": {
+      "txt": "Botón",
+      "link": {
+        "url": "#",
+        "type": "a"
+      }
+    }
+  }
+}

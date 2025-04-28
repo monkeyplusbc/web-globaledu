@@ -1,0 +1,49 @@
+{
+  "url": "unihabitat",
+  "category": "Servicios para Estudiantes",
+  "date": "28 Abr 2025",
+  "client": "Unihabitat",
+  "linkProject": "",
+  "title": "Unihabitat: Tu hogar en Portugal para estudiantes internacionales",
+  "image": {
+    "src": "/assets/images/photos/b1.jpg",
+    "alt": "Unihabitat - Vivienda para estudiantes en Portugal",
+    "title": "Unihabitat"
+  },
+  "seo": {
+    "title": "Unihabitat: Vivienda y apoyo para estudiantes internacionales en Portugal",
+    "description": "Unihabitat: Encontramos tu vivienda ideal en Portugal, validamos contratos y te brindamos apoyo logístico local al llegar. ¡Tu hogar lejos de casa!",
+    "keywords": "vivienda estudiantes portugal, alojamiento estudiantes portugal, residencias estudiantes portugal, alquiler estudiantes portugal, apoyo estudiantes internacionales portugal, validación contratos portugal, logística estudiantes portugal",
+    "imageSocial": "/assets/images/photos/b1.jpg",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Apartamentos para estudiantes en Portugal",
+      "title": "Opciones de vivienda en Portugal"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Validación de contrato de alquiler en Portugal",
+      "title": "Contratos seguros en Portugal"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Apoyo logístico para estudiantes en Portugal",
+      "title": "Llegada sin complicaciones a Portugal"
+    }
+  ],
+  "about": [
+    {
+      "type": "p",
+      "content": "Unihabitat es tu solución integral para encontrar el hogar perfecto en Portugal si eres un estudiante internacional recién llegado. Entendemos los desafíos de establecerse en un nuevo país y estamos aquí para hacer tu transición lo más sencilla posible."
+    },
+    {
+      "type": "p",
+      "content": "Nuestros servicios incluyen la búsqueda de una amplia variedad de opciones de vivienda que se ajusten a tus necesidades y presupuesto, la validación exhaustiva de contratos para tu seguridad legal, y un apoyo logístico local completo para que te sientas cómodo y bienvenido desde el primer día en Portugal."
+    }
+  ]
+}

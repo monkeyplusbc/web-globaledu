@@ -1,0 +1,49 @@
+{
+  "url": "eg-educacion-global",
+  "category": "Educación",
+  "date": "28 Abr 2025",
+  "client": "EG Educación Global",
+  "linkProject": "",
+  "title": "EG Educación Global: Tu puerta a universidades europeas",
+  "image": {
+    "src": "/assets/images/photos/b1.jpg",
+    "alt": "Logo de EG Educación Global",
+    "title": "EG Educación Global"
+  },
+  "seo": {
+    "title": "EG Educación Global: Universidades Europeas en Latinoamérica",
+    "description": "EG Educación Global: Consultora educativa con 10+ años de experiencia representando universidades europeas en Latinoamérica. Te acompañamos en tu admisión.",
+    "keywords": "educación global, universidades europeas, estudiar en europa, consultora educativa, admisión universitaria, Latinoamérica",
+    "imageSocial": "/assets/images/photos/b1.jpg",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Estudiantes universitarios europeos",
+      "title": "Vida estudiantil en Europa"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Campus universitario europeo",
+      "title": "Campus europeo"
+    },
+    {
+      "src": "/assets/images/photos/cs1.jpg",
+      "alt": "Estudiantes graduándose en Europa",
+      "title": "Graduación en Europa"
+    }
+  ],
+  "about": [
+    {
+      "type": "p",
+      "content": "EG Educación Global es tu aliado estratégico para acceder a la educación superior en Europa. Con más de una década de experiencia, somos representantes oficiales de prestigiosas universidades europeas en Latinoamérica."
+    },
+    {
+      "type": "p",
+      "content": "Nuestro equipo de expertos te brinda un acompañamiento integral en cada etapa de tu proceso de admisión. Desde la orientación personalizada para encontrar la universidad y el programa ideal, hasta la gestión de la documentación y la matrícula, estamos contigo para hacer tu sueño de estudiar en Europa una realidad."
+    }
+  ]
+}

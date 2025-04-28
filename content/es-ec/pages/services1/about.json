@@ -1,0 +1,105 @@
+{
+  "active": true,
+  "topImage": {
+    "src": "/assets/images/photos/about5.jpg",
+    "alt": "",
+    "title": ""
+  },
+  "cardImage": {
+    "src": "/assets/images/photos/bg3.jpg",
+    "alt": "",
+    "title": ""
+  },
+  "counters": [
+    {
+      "value": 1234,
+      "label": "Lorem Ipsum"
+    },
+    {
+      "value": 5678,
+      "label": "Dolor Sit"
+    },
+    {
+      "value": 9012,
+      "label": "Amet Consectetur"
+    },
+    {
+      "value": 3456,
+      "label": "Adipiscing Elit"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "/assets/images/photos/g1.jpg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "/assets/images/photos/g2.jpg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "/assets/images/photos/g3.jpg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "/assets/images/photos/g4.jpg",
+      "alt": "",
+      "title": ""
+    }
+  ],
+  "whatWeDo": {
+    "title": "Lorem Ipsum?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <span class=\"relative z-[2] whitespace-nowrap after:content-[''] after:block after:absolute after:w-[102.5%] after:h-[30%] after:left-[-1.5%] after:z-[-1] after:transition-all after:duration-[0.2s] after:ease-in-out after:mt-0 after:rounded-[5rem] after:bottom-[9%] motion-reduce:after:transition-none after:bg-[rgba(63,120,224,.12)]\">labore et</span> dolore magna.",
+    "services": [
+      {
+        "icon": "uil:phone-volume",
+        "title": "Lorem Ipsum",
+        "description": "Nulla vitae elit libero pharetra augue."
+      },
+      {
+        "icon": "uil:shield-exclamation",
+        "title": "Dolor Sit",
+        "description": "Vivamus sagittis lacus augue laoreet."
+      },
+      {
+        "icon": "uil:laptop-cloud",
+        "title": "Amet Consectetur",
+        "description": "Cras mattis consectetur purus sit."
+      },
+      {
+        "icon": "uil:chart-line",
+        "title": "Adipiscing Elit",
+        "description": "Aenean lacinia bibendum nulla sed."
+      }
+    ]
+  },
+  "howWeDoIt": {
+    "title": "Lorem Ipsum?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <span class=\"relative z-[2] whitespace-nowrap after:content-[''] after:block after:absolute after:w-[102.5%] after:h-[30%] after:left-[-1.5%] after:z-[-1] after:transition-all after:duration-[0.2s] after:ease-in-out after:mt-0 after:rounded-[5rem] after:bottom-[9%] motion-reduce:after:transition-none after:bg-[rgba(63,120,224,.12)]\">labore et</span> dolore magna.",
+    "processes": [
+      {
+        "number": "01",
+        "title": "Lorem",
+        "description": "Nulla vitae elit libero elit non porta gravida eget metus cras. Aenean eu leo quam. Pellentesque."
+      },
+      {
+        "number": "02",
+        "title": "Ipsum",
+        "description": "Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at."
+      },
+      {
+        "number": "03",
+        "title": "Dolor",
+        "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit."
+      },
+      {
+        "number": "04",
+        "title": "Sit",
+        "description": "Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus."
+      }
+    ]
+  }
+}

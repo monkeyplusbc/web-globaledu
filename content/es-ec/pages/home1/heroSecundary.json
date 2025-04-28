@@ -1,0 +1,18 @@
+{
+  "active": false,
+  "image": {
+    "src": "/assets/images/illustrations/i3.png",
+    "alt": "",
+    "title": ""
+  },
+  "pretitle": "Lorem ipsum",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "btn": {
+    "txt": "Botón",
+    "link": {
+      "url": "#",
+      "type": "a"
+    }
+  }
+}

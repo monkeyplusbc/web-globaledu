@@ -1,0 +1,25 @@
+{
+  "active": false,
+  "img": {
+    "src": "/assets/images/photos/co1.png",
+    "alt": "",
+    "title": ""
+  },
+  "testimonials": [
+    {
+      "quote": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”",
+      "author": "Lorem Ipsum",
+      "role": "Dolor Sit Amet"
+    },
+    {
+      "quote": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”",
+      "author": "Consectetur",
+      "role": "Adipiscing Elit"
+    },
+    {
+      "quote": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.”",
+      "author": "Sed Do Eiusmod",
+      "role": "Tempor Incididunt"
+    }
+  ]
+}

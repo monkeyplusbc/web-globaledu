@@ -1,0 +1,63 @@
+{
+  "active": true,
+  "whoAreWe": {
+    "icon": {
+      "src": "/assets/images/icons/lineal/megaphone.svg",
+      "alt": "",
+      "title": ""
+    },
+    "title": "¿Quienes somos?",
+    "lead": "Global Edu Group es un ecosistema empresarial que nació en Portugal y se expandió hacia Latinoamérica con un objetivo claro: acompañar de forma integral a estudiantes, profesionales y familias que buscan oportunidades de vida y crecimiento en Europa.",
+    "description": "Desde el 2015 hemos acompañado a más de 1.200 personas en su camino hacia Portugal, España e Italia, combinando experiencia, innovación y cercanía humana. Nuestro grupo está conformado por cuatro unidades que trabajan de forma coordinada para cubrir cada fase del proceso migratorio y educativo.",
+    "list1": [
+    ],
+    "list2": [
+    ],
+    "images": [
+      {
+        "src": "/assets/images/photos/about2.jpg",
+        "alt": "",
+        "title": "",
+        "position": "right"
+      },
+      {
+        "src": "/assets/images/photos/about3.jpg",
+        "alt": "",
+        "title": "",
+        "position": "left"
+      }
+    ]
+  },
+  "workingSteps": {
+    "icon": {
+      "src": "/assets/images/icons/lineal/list.svg",
+      "alt": "",
+      "title": ""
+    },
+    "head": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Puntos Destacados",
+    "lead": "",
+    "txt": "- Asesoría educativa con representación oficial de universidades europeas<br /> - Servicios migratorios legales y personalizados<br /> - Cursos de idiomas en vivo con profesores nativos<br /> - Gestión de alojamiento y logística local en Portugal<br /> - Presencia operativa en Portugal, Ecuador y otros países de la región<br /> - Más de 10 años de experiencia conectando LATAM con Europa",
+    "btn": {
+      "txt": "Agenda una cita",
+      "link": {
+        "url": "#",
+        "type": "a"
+      }
+    },
+    "items": [
+      {
+        "title": "Lorem Ipsum",
+        "txt": "Nulla vitae elit libero pharetra augue."
+      },
+      {
+        "title": "Dolor Sit Amet",
+        "txt": "Vivamus sagittis lacus vel augue."
+      },
+      {
+        "title": "Consectetur",
+        "txt": "Cras mattis consectetur purus sit."
+      }
+    ]
+  }
+}

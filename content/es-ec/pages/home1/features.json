@@ -1,0 +1,71 @@
+{
+  "active": true,
+  "pretitle": "Un grupo, cuatro soluciones integradas.",
+  "title": "Conoce las unidades especializadas de Global Edu Group y cómo trabajan juntas para acompañarte en tu proceso hacia Europa.",
+  "items": [
+    {
+      "image": {
+        "src": "/assets/images/icons/lineal/search-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Consultora educativa que representa universidades de Portugal, España e Italia. Brindando un acompañamiento integral.",
+      "txt": "",
+      "btn": {
+        "txt": "Ver más",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/icons/lineal/search-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Consultora migratoria especializada en visados para Portugal. Te guiamos desde la planificación hasta tu integración legal y segura en el país.",
+      "txt": "",
+      "btn": {
+        "txt": "Ver más",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/icons/lineal/search-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Academia de idiomas con foco en portugués europeo. Cursos online en vivo con profesores nativos desde Portugal. ",
+      "txt": "",
+      "btn": {
+        "txt": "Ver más",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/icons/lineal/search-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Empresa de gestión de alojamiento y logística local para estudiantes internacionales en Portugal. Te ayudamos a instalarte sin complicaciones.",
+      "txt": "",
+      "btn": {
+        "txt": "Ver más",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    }
+  ]
+}

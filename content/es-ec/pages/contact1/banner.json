@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "bg": "/assets/images/photos/bg3.jpg",
+  "title": "Hablemos. Estamos aquí para acompañarte.",
+  "breadcrumbItems": [
+    {
+      "label": "Inicio",
+      "link": "home1"
+    },
+    {
+      "label": "Contacto",
+      "active": true
+    }
+  ]
+}

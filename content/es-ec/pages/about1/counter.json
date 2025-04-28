@@ -1,0 +1,41 @@
+{
+  "active": false,
+  "counters": [
+    {
+      "icon": {
+        "src": "/assets/images/icons/lineal/check.svg",
+        "alt": "",
+        "title": ""
+      },
+      "value": 1234,
+      "label": "Lorem Ipsum"
+    },
+    {
+      "icon": {
+        "src": "/assets/images/icons/lineal/user.svg",
+        "alt": "",
+        "title": ""
+      },
+      "value": 5678,
+      "label": "Dolor Sit"
+    },
+    {
+      "icon": {
+        "src": "/assets/images/icons/lineal/briefcase-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "value": 9012,
+      "label": "Amet Consectetur"
+    },
+    {
+      "icon": {
+        "src": "/assets/images/icons/lineal/award-2.svg",
+        "alt": "",
+        "title": ""
+      },
+      "value": 3456,
+      "label": "Adipiscing Elit"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "url": "alojamiento-estudiantes-internacionales-portugal",
+  "image": {
+    "src": "/assets/images/photos/b1.jpg",
+    "alt": "Alojamiento para estudiantes internacionales en Portugal",
+    "title": "Encuentra tu Hogar en Portugal"
+  },
+  "category": "Servicios de Alojamiento",
+  "date": "28 Abr 2025",
+  "autor": "Unihabitat",
+  "title": "Alojamiento para Estudiantes Internacionales en Portugal: Encuentra tu Hogar Ideal",
+  "seo": {
+    "title": "Alojamiento para Estudiantes Internacionales en Portugal | Unihabitat",
+    "description": "Unihabitat (Global Edu Group) te ayuda a encontrar el alojamiento ideal en Portugal: residencias, apartamentos compartidos y más. Asistencia integral para estudiantes internacionales.",
+    "keywords": "alojamiento estudiantes portugal, vivienda estudiantes portugal, residencias estudiantes portugal, apartamentos estudiantes portugal, alquiler estudiantes portugal, estudiantes internacionales portugal, Unihabitat, Global Edu Group",
+    "imageSocial": "/assets/images/photos/b1.jpg",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "body": [
+    {
+      "type": "p",
+      "content": "Encontrar un lugar adecuado para vivir es fundamental para una experiencia positiva en el extranjero. Unihabitat, parte de Global Edu Group, se especializa en ofrecer soluciones de alojamiento para estudiantes internacionales en Portugal."
+    },
+    {
+      "type": "title",
+      "content": "Nuestras Opciones de Alojamiento:"
+    },
+    {
+      "type": "p",
+      "content": "Opciones de Alojamiento Disponibles: Desde residencias estudiantiles hasta apartamentos compartidos, adaptados a diferentes presupuestos y preferencias."
+    },
+    {
+      "type": "title",
+      "content": "Te Asistimos en Cada Paso:"
+    },
+    {
+      "type": "p",
+      "content": "Proceso de Búsqueda y Selección: Cómo te asistimos en cada paso, desde la búsqueda hasta la firma del contrato."
+    },
+    {
+      "type": "title",
+      "content": "Consejos para una Llegada sin Problemas:"
+    },
+    {
+      "type": "p",
+      "content": "Consejos para una Transición Suave: Aspectos a considerar al elegir alojamiento, derechos y responsabilidades como inquilino."
+    },
+    {
+      "type": "title",
+      "content": "Más que solo Alojamiento:"
+    },
+    {
+      "type": "p",
+      "content": "Servicios Adicionales: Asistencia en la instalación, orientación en la ciudad y soporte continuo durante tu estancia."
+    },
+    {
+      "type": "title",
+      "content": "Conclusión:"
+    },
+    {
+      "type": "p",
+      "content": "Con Unihabitat, tu bienestar y comodidad son nuestra prioridad. Déjanos ayudarte a encontrar el hogar perfecto para tu aventura académica en Portugal."
+    }
+  ]
+}

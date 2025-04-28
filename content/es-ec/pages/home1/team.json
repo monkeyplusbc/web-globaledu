@@ -1,0 +1,151 @@
+{
+  "active": false,
+  "pretitle": "Lorem ipsum",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "items": [
+    {
+      "image": {
+        "src": "/assets/images/avatars/te1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Lorem ipsum",
+      "subtitle": "Lorem ipsumen.",
+      "txt": "Fermentum massa justo sit amet risus morbi leo.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Lorem ipsum",
+      "subtitle": "Lorem ipsumen.",
+      "txt": "Fermentum massa justo sit amet risus morbi leo.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Lorem ipsum",
+      "subtitle": "Lorem ipsumen.",
+      "txt": "Fermentum massa justo sit amet risus morbi leo.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Lorem ipsum",
+      "subtitle": "Lorem ipsumen.",
+      "txt": "Fermentum massa justo sit amet risus morbi leo.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

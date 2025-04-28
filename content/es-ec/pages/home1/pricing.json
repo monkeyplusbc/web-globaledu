@@ -1,0 +1,78 @@
+{
+  "active": false,
+  "settings": {
+    "month": "Mensual",
+    "year": "Anual",
+    "save": "(Ahorro del 10%)"
+  },
+  "pretitle": "Lorem ipsum",
+  "title": "Lorem ipsum dolor sit amet, consectetur.",
+  "txt": "Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna.",
+  "btn": {
+    "txt": "Botón",
+    "link": {
+      "url": "#",
+      "type": "a"
+    }
+  },
+  "items": [
+    {
+      "monthPrice": "19",
+      "yearPrice": "199",
+      "plan": "Lorem ipsumen",
+      "items": [
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        }
+      ],
+      "btn": {
+        "txt": "Botón",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    },
+    {
+      "monthPrice": "19",
+      "yearPrice": "199",
+      "plan": "Lorem ipsumen",
+      "items": [
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        },
+        {
+          "txt": "Ipsumen lorem"
+        }
+      ],
+      "btn": {
+        "txt": "Botón",
+        "link": {
+          "url": "#",
+          "type": "a"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "active": false,
+  "icon": {
+    "src": "/assets/images/icons/lineal/team.svg",
+    "alt": "",
+    "title": ""
+  },
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "teamMembers": [
+    {
+      "image": {
+        "src": "/assets/images/avatars/te1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Lorem Ipsum",
+      "subtitle": "Dolor Sit Amet",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te2.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Consectetur",
+      "subtitle": "Adipiscing Elit",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te3.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Sed Do",
+      "subtitle": "Eiusmod Tempor",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te4.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Incididunt Ut",
+      "subtitle": "Labore Et",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te5.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Dolore Magna",
+      "subtitle": "Aliqua Ut",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "image": {
+        "src": "/assets/images/avatars/te6.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Enim Ad Minim",
+      "subtitle": "Veniam Quis",
+      "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "networks": {
+        "active": true,
+        "items": [
+          {
+            "icon": "ic:baseline-facebook",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": {
+              "url": "#",
+              "type": "a"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
