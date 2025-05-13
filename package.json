@@ -1,6 +1,7 @@
 {
   "name": "new-project",
   "private": true,
+  "packageManager": "pnpm@9.15.3",
   "engines": {
     "node": ">=16.0.0"
   },
