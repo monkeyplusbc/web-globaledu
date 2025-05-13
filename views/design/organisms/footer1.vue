@@ -8,7 +8,7 @@ const { logos, menu, networks, footer } = cms.$settings.common;
 <template>
   <footer class="bg-blue-100 opacity-100 text-gray-500">
     <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
-      <div class="xl:flex lg:flex flex-row xl:!items-center lg:!items-center">
+      <div v-if="footer.cta.active" class="xl:flex lg:flex flex-row xl:!items-center lg:!items-center">
         <div
           class="h3 text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] !mb-6 xl:!mb-0 lg:!mb-0 lg:pr-40 xl:pr-60 xxl:pr-[22.5rem] !text-white"
           v-html="footer.cta.txt"
@@ -21,7 +21,7 @@ const { logos, menu, networks, footer } = cms.$settings.common;
         </atoms-button>
       </div>
       <!-- /div -->
-      <hr class="mt-[3rem] mb-[3.5rem] opacity-100 m-[4.5rem_0] border-t border-solid border-[rgba(164,174,198,.2)]">
+      <hr v-if="footer.cta.active" class="mt-[3rem] mb-[3.5rem] opacity-100 m-[4.5rem_0] border-t border-solid border-[rgba(164,174,198,.2)]">
       <div class="flex flex-wrap mx-[-15px] mt-[-30px] xl:mt-0 lg:mt-0">
         <div
           class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]"

@@ -104,6 +104,7 @@ export default defineCmsCollection({
                 cta: widgets.object({
                   label: 'Banner cta',
                   fields: {
+                    active: widgets.boolean({ label: 'Activo' }),
                     txt: widgets.markdown({ label: 'Texto', required: true }),
                     btn: widgets.object({
                       label: 'Texto',

@@ -5,7 +5,7 @@ const { heroPrimary, features, heroSecundary, steps, heroExpansors, team, heroCh
 
 <template>
   <organisms-hero-simple v-if="heroPrimary.active" :data="heroPrimary" />
-  <organisms-features v-if="features.active" :data="features" />
+  <organisms-features v-if="features.active" class="mb-10" :data="features" />
   <organisms-hero-compouse v-if="heroSecundary.active" :data="heroSecundary" />
   <organisms-steps v-if="steps.active" :data="steps" />
   <organisms-hero-expansor v-if="heroExpansors.active" :data="heroExpansors" />
