@@ -85,12 +85,12 @@
   },
   "galleryImages": {
     "image1": {
-      "src": "/assets/images/photos/g5.jpg",
+      "src": "/images/photos/g5.jpg",
       "alt": "",
       "title": ""
     },
     "image2": {
-      "src": "/assets/images/photos/g6.jpg",
+      "src": "/images/photos/g6.jpg",
       "alt": "",
       "title": ""
     }

@@ -1,5 +1,5 @@
 <!-- Netlify cms redirect -->
-<% if(it?.page?.name==='home'){%>
+<% if(it?.page?.name==='home1'){%>
 <script>
       if (location.hash && (location.hash.includes('invite_token') || location.hash.includes('recovery') || location.hash.includes('access_token'))) {
         // Guard to redirect

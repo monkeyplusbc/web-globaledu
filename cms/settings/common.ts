@@ -43,10 +43,21 @@ export default defineCmsCollection({
                 items: widgets.list({
                   label: 'Lista del menú',
                   fields: {
+                    header: widgets.boolean({ label: 'Aplicar en Header', default: true }),
                     txt: widgets.string({ label: 'Texto del botón', required: true }),
                     link: widgets.object({
                       label: 'Enlace',
                       fields: linkOrButton(widgets),
+                    }),
+                    submenu: widgets.list({
+                      label: 'Lista del submenú',
+                      fields: {
+                        txt: widgets.string({ label: 'Texto del botón', required: true }),
+                        link: widgets.object({
+                          label: 'Enlace',
+                          fields: linkOrButton(widgets),
+                        }),
+                      },
                     }),
                   },
                   extraOptions: {
@@ -66,6 +77,42 @@ export default defineCmsCollection({
                     ...notNested,
                   },
                 }),
+                help: widgets.object({
+                  label: 'Informacion',
+                  fields: {
+                    active: widgets.boolean({ label: 'Activar', default: true }),
+                    icon: widgets.string({ label: 'Clase de ícono', required: true, hint: 'Consultar en le siguiente enlace clases de otros íconos: https://icon-sets.iconify.design/' }),
+                    txt: widgets.string({ label: 'Texto', required: true }),
+                    contact: widgets.object({
+                      label: 'Contacto',
+                      fields: {
+                        title: widgets.string({ label: 'Titulo', required: true }),
+                        address: widgets.string({ label: 'Direccion', required: true }),
+                        email: widgets.string({ label: 'Email', required: true }),
+                        phone: widgets.string({ label: 'Email', required: true }),
+                      },
+                    }),
+                    terms: widgets.object({
+                      label: 'Terminos',
+                      fields: {
+                        title: widgets.string({ label: 'Titulo', required: true }),
+                        items: widgets.list({
+                          label: 'Elementos',
+                          fields: {
+                            txt: widgets.string({ label: 'Texto', required: true }),
+                            link: widgets.object({
+                              label: 'Enlace',
+                              fields: linkOrButton(widgets),
+                            }),
+                          },
+                          extraOptions: {
+                            ...notNested,
+                          },
+                        }),
+                      },
+                    }),
+                  },
+                }),
               },
             },
           ),
@@ -73,7 +120,8 @@ export default defineCmsCollection({
             {
               label: 'Logos',
               fields: {
-                logoDark: widgets.image({ label: 'Logotipo para fondos claros', required: true, ...media.images, hint: 'Medidas: 134*26px' }),
+                logoDark: widgets.image({ label: 'Logotipo para fondos oscuros', required: true, ...media.images, hint: 'Medidas: 134*33px' }),
+                logoLight: widgets.image({ label: 'Logotipo para fondos claros', required: true, ...media.images, hint: 'Medidas: 134*33px' }),
               },
             },
           ),
@@ -106,9 +154,9 @@ export default defineCmsCollection({
                   fields: {
                     txt: widgets.markdown({ label: 'Texto', required: true }),
                     btn: widgets.object({
-                      label: 'Texto',
+                      label: 'Boton',
                       fields: {
-                        txt: widgets.string({ label: 'Texto' }),
+                        txt: widgets.string({ label: 'Texto Enlace' }),
                         link: widgets.object({
                           label: 'Enlace',
                           fields: linkOrButton(widgets),
@@ -148,7 +196,15 @@ export default defineCmsCollection({
             {
               label: 'Generales',
               fields: {
-                title: widgets.string({ label: 'Texto del botón', required: true }),
+                projects: widgets.object({
+                  label: 'Proyectos',
+                  fields: {
+                    date: widgets.string({ label: 'Fecha', required: true }),
+                    client: widgets.string({ label: 'Cliente', required: true }),
+                    about: widgets.string({ label: 'Información del curso', required: true }),
+                    btn: widgets.string({ label: 'Texto Boton', required: true }),
+                  },
+                }),
               },
             },
           ),

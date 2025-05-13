@@ -3,17 +3,29 @@ export const media = {
     media_folder: '/public/images/',
     public_folder: '/images/',
   },
+  icons: {
+    media_folder: '/public/images/icons/',
+    public_folder: '/images/icons/',
+  },
   ilustrations: {
-    media_folder: '/public/ilustrations/',
-    public_folder: '/ilustrations/',
+    media_folder: '/public/images/ilustrations/',
+    public_folder: '/images/ilustrations/',
   },
   avatars: {
-    media_folder: '/public/avatars/',
-    public_folder: '/avatars/',
+    media_folder: '/public/images/avatars/',
+    public_folder: '/images/avatars/',
   },
-  brands: {
-    media_folder: '/public/brands/',
-    public_folder: '/brands/',
+  home: {
+    media_folder: '/public/images/home/',
+    public_folder: '/images/home/',
+  },
+  nosotros: {
+    media_folder: '/public/images/nosotros/',
+    public_folder: '/images/nosotros/',
+  },
+  projects: {
+    media_folder: '/public/images/projects/',
+    public_folder: '/images/projects/',
   },
 };
 

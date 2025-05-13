@@ -2,7 +2,7 @@
   "active": true,
   "whoAreWe": {
     "icon": {
-      "src": "/assets/images/icons/lineal/megaphone.svg",
+      "src": "/images/icons/lineal/megaphone.svg",
       "alt": "",
       "title": ""
     },
@@ -15,13 +15,13 @@
     ],
     "images": [
       {
-        "src": "/assets/images/photos/about2.jpg",
+        "src": "/images/nosotros/about2.jpg",
         "alt": "",
         "title": "",
         "position": "right"
       },
       {
-        "src": "/assets/images/photos/about3.jpg",
+        "src": "/images/nosotros/about3.jpg",
         "alt": "",
         "title": "",
         "position": "left"
@@ -30,7 +30,7 @@
   },
   "workingSteps": {
     "icon": {
-      "src": "/assets/images/icons/lineal/list.svg",
+      "src": "/images/icons/lineal/list.svg",
       "alt": "",
       "title": ""
     },

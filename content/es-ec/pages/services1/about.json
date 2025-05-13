@@ -1,12 +1,12 @@
 {
   "active": true,
   "topImage": {
-    "src": "/assets/images/photos/about5.jpg",
+    "src": "/images/photos/about5.jpg",
     "alt": "",
     "title": ""
   },
   "cardImage": {
-    "src": "/assets/images/photos/bg3.jpg",
+    "src": "/images/photos/bg3.jpg",
     "alt": "",
     "title": ""
   },
@@ -30,22 +30,22 @@
   ],
   "galleryImages": [
     {
-      "src": "/assets/images/photos/g1.jpg",
+      "src": "/images/photos/g1.jpg",
       "alt": "",
       "title": ""
     },
     {
-      "src": "/assets/images/photos/g2.jpg",
+      "src": "/images/photos/g2.jpg",
       "alt": "",
       "title": ""
     },
     {
-      "src": "/assets/images/photos/g3.jpg",
+      "src": "/images/photos/g3.jpg",
       "alt": "",
       "title": ""
     },
     {
-      "src": "/assets/images/photos/g4.jpg",
+      "src": "/images/photos/g4.jpg",
       "alt": "",
       "title": ""
     }

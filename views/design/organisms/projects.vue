@@ -41,7 +41,7 @@ const { general } = cms.$settings.common;
                       >
                         <img
                           class=" transition-all duration-[0.35s] ease-in-out group-hover:scale-105"
-                          :src="v1.src"
+                          :src="v1.img.src"
                           :alt="v1.alt"
                         />
                       </a>

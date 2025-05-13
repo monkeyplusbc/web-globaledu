@@ -37,24 +37,10 @@ defineProps({
                   <div class="flex flex-wrap mx-0">
                     <div id="single-blog" class="xl:w-9/12 lg:w-9/12 md:w-9/12 w-full flex-[0_0_auto] max-w-full">
                       <template v-for="(v, i) in data?.about">
-                        <div v-if="v.type === 'title'" class="title" v-html="v.content" />
-                        <div v-if="v.type === 'p'" class="parrafo" v-html="v.content" />
-                        <div v-if="v.type === 'list'" class="list">
-                          <ul class="list-disc ml-[30px]">
-                            <li v-for="(item, index) in v.content" :key="`li${index}`" v-html="item" />
-                          </ul>
-                        </div>
-                        <div v-if="v.type === 'enumerate'" class="list">
-                          <ol class="list-decimal ml-[30px]">
-                            <li v-for="(item, index) in v.content" :key="`li${index}`" v-html="item" />
-                          </ol>
-                        </div>
-                        <template v-if="v.type === 'image'">
-                          <mk-picture :src="v.content" class="max-w-full mx-auto mb-[20px]" />
-                        </template>
+                        <div class="parrafo" v-html="v.content" />
                       </template>
                     </div>
-                    <div class="xl:w-2/12 lg:w-2/12 md:w-2/12 w-full flex-[0_0_auto] max-w-full !ml-auto">
+                    <div class="xl:w-2/12 lg:w-2/12 md:w-2/12 w-full flex-[0_0_auto] max-w-full !ml-auto" v-if="data.infoClient">
                       <ul class="pl-0 list-none">
                         <li>
                           <h5 class="!mb-1" v-html="general.projects.date"></h5>
@@ -73,7 +59,7 @@ defineProps({
               <div class="flex flex-wrap mx-[-15px] md:mx-[-15px] mt-[25px]">
                 <div class="item xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]" v-for="(v,i) in data.gallery">
                   <a :href="v.src" data-glightbox data-gallery="project-1">
-                    <mk-picture :src="v.src" class="transition-all duration-[0.35s] ease-in-out group-hover:scale-105 w-full"></mk-picture>
+                    <mk-picture :src="v.img.src" class="transition-all duration-[0.35s] ease-in-out group-hover:scale-105 w-full"></mk-picture>
                   </a>
                 </div>
               </div>

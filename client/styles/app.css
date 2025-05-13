@@ -10697,7 +10697,7 @@ input,select,textarea {
 }
 
 .bg-gradient-yellow {
-  background: linear-gradient(180deg,#fff8ee,rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg,rgba(237, 168, 11, 0.4),rgba(255,255,255,0) 100%);
 }
 
 .bg-gradient-reverse-primary {
@@ -20871,7 +20871,7 @@ blockquote.video-wrapper .video-content.icon-top:before {
 
   .navbar-expand-lg.navbar-light .dropdown:not(.dropdown-submenu)>.dropdown-toggle:after {
     --tw-text-opacity: 1;
-    color: rgb(63 120 224 / var(--tw-text-opacity));
+    color: rgb(52 63 82 / var(--tw-text-opacity));
   }
 
   .navbar-expand-lg .dropdown-mega,.navbar-expand-lg .navbar-nav {

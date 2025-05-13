@@ -1,12 +1,12 @@
 {
   "active": true,
   "img": {
-    "src": "/assets/images/photos/about4.jpg",
+    "src": "/images/nosotros/about4.jpg",
     "alt": "",
     "title": ""
   },
   "icon": {
-    "src": "/assets/images/icons/lineal/telemarketer.svg",
+    "src": "/images/icons/lineal/telemarketer.svg",
     "alt": "",
     "title": ""
   },

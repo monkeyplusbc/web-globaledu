@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "DB Consulting: Tu camino seguro a Portugal",
   "image": {
-    "src": "/assets/images/photos/b1.jpg",
+    "src": "/images/projects/b1.jpg",
     "alt": "DB Consulting - Consultora Migratoria Portugal",
     "title": "DB Consulting"
   },
@@ -14,26 +14,32 @@
     "title": "DB Consulting: Consultora Migratoria para Portugal",
     "description": "DB Consulting: Expertos en programas de visado, planificación documental y acompañamiento integral para establecerse en Portugal de forma segura y estructurada.",
     "keywords": "consultora migratoria, portugal, visado portugal, residencia portugal, planificación documental, inmigración portugal, mudarse a portugal",
-    "imageSocial": "/assets/images/photos/b1.jpg",
+    "imageSocial": "/images/projects/b1.jpg",
     "google": true,
     "twitter": true,
     "facebook": true
   },
   "gallery": [
     {
-      "src": "/assets/images/photos/cs1.jpg",
-      "alt": "Documentos de visado para Portugal",
-      "title": "Proceso de Visado Portugal"
+      "img": {
+        "src": "/images/projects/cs1.jpg",
+        "alt": "",
+        "title": ""
+      }
     },
     {
-      "src": "/assets/images/photos/cs1.jpg",
-      "alt": "Ciudad de Lisboa, Portugal",
-      "title": "Establecerse en Portugal"
+      "img": {
+        "src": "/images/projects/cs1.jpg",
+        "alt": "",
+        "title": ""
+      }
     },
     {
-      "src": "/assets/images/photos/cs1.jpg",
-      "alt": "Asesoramiento migratorio personalizado",
-      "title": "Acompañamiento Integral"
+      "img": {
+        "src": "/images/projects/cs1.jpg",
+        "alt": "",
+        "title": ""
+      }
     }
   ],
   "about": [

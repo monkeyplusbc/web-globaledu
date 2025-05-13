@@ -3,7 +3,7 @@
   "counters": [
     {
       "icon": {
-        "src": "/assets/images/icons/lineal/check.svg",
+        "src": "/images/icons/lineal/check.svg",
         "alt": "",
         "title": ""
       },
@@ -12,7 +12,7 @@
     },
     {
       "icon": {
-        "src": "/assets/images/icons/lineal/user.svg",
+        "src": "/images/icons/lineal/user.svg",
         "alt": "",
         "title": ""
       },
@@ -21,7 +21,7 @@
     },
     {
       "icon": {
-        "src": "/assets/images/icons/lineal/briefcase-2.svg",
+        "src": "/images/icons/lineal/briefcase-2.svg",
         "alt": "",
         "title": ""
       },
@@ -30,7 +30,7 @@
     },
     {
       "icon": {
-        "src": "/assets/images/icons/lineal/award-2.svg",
+        "src": "/images/icons/lineal/award-2.svg",
         "alt": "",
         "title": ""
       },
