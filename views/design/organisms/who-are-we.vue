@@ -22,7 +22,7 @@ const props = defineProps({
               'xl:w-[55%] xl:mt-[-45%] xl:z-[4] xl:ml-0 lg:w-[55%] lg:mt-[-45%] lg:z-[4] lg:ml-0 md:w-[55%] md:mt-[-45%] md:z-[4] md:ml-0':
                 index === 1,
             }">
-              <mk-picture class="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative" :src="image.src"
+              <mk-picture class="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative" :src="image.img.src"
                 alt="image"></mk-picture>
             </div>
           </div>

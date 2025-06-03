@@ -13,5 +13,4 @@ const { heroPrimary, features, heroSecundary, steps, heroExpansors, team, heroCh
   <organisms-hero-checks v-if="heroChecks.active" :data="heroChecks" />
   <organisms-hero-cards v-if="heroCards.active" :data="heroCards" />
   <organisms-pricing v-if="pricing.active" :data="pricing" />
-  <organisms-hero-clients v-if="heroLogo.active" :data="heroLogo" />
 </template>

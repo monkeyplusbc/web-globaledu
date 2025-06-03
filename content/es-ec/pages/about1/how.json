@@ -15,16 +15,18 @@
     ],
     "images": [
       {
-        "src": "/images/nosotros/about2.jpg",
-        "alt": "",
-        "title": "",
-        "position": "right"
+        "img": {
+          "src": "/images/nosotros/nosotros-c.jpg",
+          "alt": "",
+          "title": ""
+        }
       },
       {
-        "src": "/images/nosotros/about3.jpg",
-        "alt": "",
-        "title": "",
-        "position": "left"
+        "img": {
+          "src": "/images/nosotros/nosotros-b.jpg",
+          "alt": "",
+          "title": ""
+        }
       }
     ]
   },

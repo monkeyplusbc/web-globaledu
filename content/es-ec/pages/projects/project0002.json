@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "DB Consulting: Tu camino seguro a Portugal",
   "image": {
-    "src": "/images/projects/b1.jpg",
+    "src": "/images/projects/post2.jpg",
     "alt": "DB Consulting - Consultora Migratoria Portugal",
     "title": "DB Consulting"
   },
@@ -22,21 +22,28 @@
   "gallery": [
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post2-1.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post2-2.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post2-3.jpg",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "img": {
+        "src": "/images/projects/post2-4.jpg",
         "alt": "",
         "title": ""
       }

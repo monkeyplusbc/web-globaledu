@@ -28,23 +28,14 @@ export default defineCmsCollection({
           },
         },
       ),
-      infoClient: widgets.boolean({ label: 'Informacion de cliente', default: true }),
-      linkProject: widgets.string({ label: 'Link de proyecto' }),
       category: widgets.string({ label: 'Categoria' }),
-      date: widgets.string({ label: 'Fecha' }),
-      client: widgets.string({ label: 'Cliente' }),
       title: widgets.string({ label: 'Titulo' }),
+      description: widgets.markdown({ label: 'Resumen' }),
       image: widgets.image({
         label: 'Imagen principal',
         media_folder: '/public/images/projects/',
         hint: 'Medidas sugeridas: 960px * 600px',
         public_folder: '/images/projects/',
-      }),
-      gallery: widgets.list({
-        label: 'Galeria',
-        fields: {
-          img: widgets.image({ label: 'Imagen', required: true, ...media.projects, hint: 'Medidas: 900px*800px.' }),
-        },
       }),
       about: widgets.list({
         label: 'Informacion',
@@ -53,10 +44,29 @@ export default defineCmsCollection({
           content: widgets.markdown({ label: 'Informacion' }),
         },
       }),
+      info: widgets.object(
+        {
+          collapsed: true,
+          label: 'Detalles Adicionales',
+          fields: {
+            active: widgets.boolean({ label: 'Activar' }),
+            date: widgets.string({ label: 'Fecha', hint: "DD/MM/AAAA" }),
+            client: widgets.string({ label: 'Cliente' }),
+            linkProject: widgets.string({ label: 'Enlace' })
+          },
+        },
+      ),
+      gallery: widgets.list({
+        label: 'Galeria',
+        fields: {
+          img: widgets.image({ label: 'Imagen', required: true, ...media.projects, hint: 'Medidas: 900px*800px.' }),
+        },
+      }),
+      
     };
     const model = collections.folder(
       {
-        label: 'Detalles de soluciones',
+        label: 'Detalles de servicios',
         create: true,
         identifier_field: 'url',
         slug: '{{year}}-{{month}}-{{day}}-{{url}}',

@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "Starters Academy: Aprende portugués europeo e italiano online",
   "image": {
-    "src": "/images/projects/b1.jpg",
+    "src": "/images/projects/post3.jpg",
     "alt": "Starters Academy - Academia de idiomas online",
     "title": "Starters Academy"
   },
@@ -22,21 +22,28 @@
   "gallery": [
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post3-1.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post3-2.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post3-3.jpg",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "img": {
+        "src": "/images/projects/post3-4.jpg",
         "alt": "",
         "title": ""
       }

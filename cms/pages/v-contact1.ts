@@ -24,8 +24,6 @@ export default defineCmsCollection({
         label: 'Informacion',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
-          title: widgets.string({ label: 'Título' }),
-          txt: widgets.markdown({ label: 'Texto' }),
           mapIframeSrc: widgets.string({ label: 'Link iframe mapa' }),
           contactDetails: widgets.list({
             label: 'Detalles de contacto',
@@ -35,6 +33,8 @@ export default defineCmsCollection({
               details: widgets.string({ label: 'Detalles' }),
             },
           }),
+          title: widgets.string({ label: 'Título' }),
+          txt: widgets.markdown({ label: 'Texto' }),
         },
       }),
       join: collections.file({

@@ -14,7 +14,7 @@ export default defineCmsCollection({
         fields: seoFields(widgets),
       }),
       heroPrimary: collections.file({
-        label: 'Hero Principal',
+        label: 'Banner Principal',
         fields: {
           active: widgets.boolean({ label: 'Activar' }),
           image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 800*538px' }),
@@ -36,7 +36,7 @@ export default defineCmsCollection({
         },
       }),
       features: collections.file({
-        label: 'Servicios/Productos',
+        label: 'Conoce las unidades especializadas',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           pretitle: widgets.string({ label: 'Pretítulo' }),
@@ -88,7 +88,7 @@ export default defineCmsCollection({
         },
       }),
       steps: collections.file({
-        label: 'Paso a paso',
+        label: '¿Qué nos hace diferentes?',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           pretitle: widgets.string({ label: 'Pretítulo' }),
@@ -104,10 +104,10 @@ export default defineCmsCollection({
         },
       }),
       heroChecks: collections.file({
-        label: 'Hero Cursos',
+        label: 'Metodología con sentido',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
-          image: widgets.image({ label: 'Imagen', required: true, ...media.ilustrations, hint: 'Medidas: 800*560px' }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 800*560px' }),
           title: widgets.string({ label: 'Título' }),
           txt: widgets.markdown({ label: 'Texto' }),
           btn: widgets.object({
@@ -126,40 +126,18 @@ export default defineCmsCollection({
         },
       }),
       heroCards: collections.file({
-        label: 'Hero con testimonios',
+        label: 'Aprender',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
-          pretitle: widgets.string({ label: 'Pretítulo' }),
-          title: widgets.string({ label: 'Título' }),
-          txt: widgets.markdown({ label: 'Texto' }),
-          btn: widgets.object({
-            label: 'Boton',
-            fields: {
-              txt: widgets.string({ label: 'Texto Enlace' }),
-              link: widgets.object({
-                label: 'Enlace',
-                fields: linkOrButton(widgets),
-              }),
-            },
-            extraOptions: {
-              ...notNested,
-            },
-          }),
           items: widgets.list({
-            label: 'Lista',
+            label: 'Elementos',
             fields: {
               txt: widgets.markdown({ label: 'Texto' }),
               title: widgets.string({ label: 'Título' }),
               subtitle: widgets.string({ label: 'Subtítulo' }),
             },
           }),
-        },
-      }),
-      heroLogo: collections.file({
-        label: 'Hero Testimonios',
-        fields: {
-          active: widgets.boolean({ label: 'Activar', default: true }),
-          image: widgets.image({ label: 'Imagen', required: true, ...media.ilustrations, hint: 'Medidas: 800*538px' }),
+          pretitle: widgets.string({ label: 'Pretítulo' }),
           title: widgets.string({ label: 'Título' }),
           txt: widgets.markdown({ label: 'Texto' }),
           btn: widgets.object({
@@ -178,14 +156,14 @@ export default defineCmsCollection({
         },
       }),
       heroExpansors: collections.file({
-        label: 'Hero con expansores',
+        label: 'FAQ',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
-          image: widgets.image({ label: 'Imagen', required: true, ...media.ilustrations, hint: 'Medidas: 800*499px' }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 800*499px' }),
           pretitle: widgets.string({ label: 'Pretítulo' }),
           title: widgets.string({ label: 'Título' }),
           items: widgets.list({
-            label: 'Expansores',
+            label: 'Preguntas',
             fields: {
               title: widgets.string({ label: 'Título' }),
               txt: widgets.markdown({ label: 'Texto' }),
@@ -194,7 +172,7 @@ export default defineCmsCollection({
         },
       }),
       team: collections.file({
-        label: 'Equipo',
+        label: 'Testimonios',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           pretitle: widgets.string({ label: 'Pretítulo' }),

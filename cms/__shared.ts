@@ -27,6 +27,10 @@ export const media = {
     media_folder: '/public/images/projects/',
     public_folder: '/images/projects/',
   },
+  shared: {
+    media_folder: '/public/images/shared/',
+    public_folder: '/images/shared/',
+  },
 };
 
 export const notNested = {
@@ -71,15 +75,15 @@ export function linkOrButton(widgets: any) {
   };
 }
 
-export function seoFields(widgets: any, folder = '/') {
+export function seoFields(widgets: any, folder = '/shared') {
   return {
     title: widgets.string({ label: 'Título' }),
     description: widgets.string({ label: 'Descripción' }),
     keywords: widgets.string({ label: 'Palabras clave' }),
     imageSocial: widgets.image({
       label: 'Imagen para cuando se comparte en redes',
-      media_folder: `/public/assets/images${folder}`,
-      public_folder: `/assets/images${folder}`,
+      media_folder: `/public/images${folder}`,
+      public_folder: `/images${folder}`,
       hint: 'Medidas sugeridas: 1200px * 650px',
     }),
   };

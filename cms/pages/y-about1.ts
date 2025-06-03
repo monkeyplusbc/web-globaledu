@@ -48,16 +48,7 @@ export default defineCmsCollection({
               images: widgets.list({
                 label: 'Imágenes',
                 fields: {
-                  src: widgets.image({ label: 'Imagen', required: true }),
-                  alt: widgets.string({ label: 'Texto Alternativo' }),
-                  title: widgets.string({ label: 'Título de la Imagen' }),
-                  position: widgets.select({
-                    label: 'Posición',
-                    options: [
-                      { label: 'Derecha', value: 'right' },
-                      { label: 'Izquierda', value: 'left' },
-                    ],
-                  }),
+                  img: widgets.image({ label: 'Imagen', required: true, ...media.nosotros }),
                 },
               }),
             },
@@ -70,19 +61,6 @@ export default defineCmsCollection({
               title: widgets.string({ label: 'Subtítulo' }),
               lead: widgets.markdown({ label: 'Texto de Introducción' }),
               txt: widgets.markdown({ label: 'Texto' }),
-              btn: widgets.object({
-                label: 'Boton',
-                fields: {
-                  txt: widgets.string({ label: 'Texto Enlace' }),
-                  link: widgets.object({
-                    label: 'Enlace',
-                    fields: linkOrButton(widgets),
-                  }),
-                },
-                extraOptions: {
-                  ...notNested,
-                },
-              }),
               items: widgets.list({
                 label: 'Pasos de Trabajo',
                 fields: {
@@ -150,7 +128,7 @@ export default defineCmsCollection({
             label: 'Contadores',
             fields: {
               icon: widgets.image({ label: 'Icono', required: true, ...media.icons, hint: 'Medidas: 55px*55px' }),
-              value: widgets.number({ label: 'Numero', required: true }),
+              value: widgets.string({ label: 'Numero', required: true }),
               label: widgets.string({ label: 'Etiqueta', required: true }),
             }
           }),

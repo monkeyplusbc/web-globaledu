@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "EG Educación Global: Tu puerta a universidades europeas",
   "image": {
-    "src": "/images/projects/b1.jpg",
+    "src": "/images/projects/post1.jpg",
     "alt": "Logo de EG Educación Global",
     "title": "EG Educación Global"
   },
@@ -22,21 +22,28 @@
   "gallery": [
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post1-1.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post1-2.jpg",
         "alt": "",
         "title": ""
       }
     },
     {
       "img": {
-        "src": "/images/projects/cs1.jpg",
+        "src": "/images/projects/post1-3.jpg",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "img": {
+        "src": "/images/projects/post1-4.jpg",
         "alt": "",
         "title": ""
       }
