@@ -18,7 +18,7 @@ defineRule('numeric', numeric, ({ label }) => LANG === 'en' ? `${label} should o
 defineRule('size', size, ({ label }) => LANG === 'en' ? `${label} should not be more than 1 MB.` : `${label} no debe pesar más de 1 MB.`);
 defineRule('ext', ext, ({ label }, param) => LANG === 'en' ? `${label} should be a ${param}.` : `${label} debe ser un ${param}.`);
 
-async function convertToBase64(file: File) {
+async function convertToBase64(file: File | Blob) {
   const r: string = await new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.readAsDataURL(file);
@@ -28,10 +28,22 @@ async function convertToBase64(file: File) {
   return r.split(',')[1];
 }
 
+async function convertFilePathToBase64(filePath: RequestInfo | URL) {
+  try {
+    const response = await fetch(filePath);
+    const blob = await response.blob();
+    return await convertToBase64(blob);
+  }
+  catch (error) {
+    console.error('Error fetching or converting file:', error);
+    throw error;
+  }
+}
+
 function createSingleForm() {
   const _state = reactive<StateForm>({
     initValues: {},
-    values: {},
+    values: { to: 'info@globaledug.com' },
     rules: {},
     errors: {},
   });
@@ -42,10 +54,9 @@ function createSingleForm() {
     return {
       spinner: false,
       response: {
-        active: false,
-        containerClases: '',
-        insideClases: '',
+        error: false,
         text: '',
+        active: false,
       },
       async handleFileChange(event: { target: { files: any[] } }) {
         const file = event.target.files[0];
@@ -60,61 +71,108 @@ function createSingleForm() {
           }
         }
       },
+
+      // Cerrar dismiss
+      closeDismiss() {
+        this.response.active = false;
+      },
       async sendForm() {
         const { valid } = validForm();
-        if (!valid)
-          return undefined;
-
         this.spinner = true;
 
-        const url = 'https://n8n-redirects.netlify.app/sendinformation.ts';
+        grecaptcha.ready(() => {
+          grecaptcha.execute('6LfjjVArAAAAAJYPuRhUOijiybb3hE5YHkNNU2aB', { action: 'submit' }).then(async (token: any) => {
+            if (!valid) {
+              this.response.active = true;
+              this.response.error = true;
+              this.spinner = false;
+              this.response.text = LANG === 'en' ? 'Check that all the fields are complete' : 'Revisa que todos los campos estén completos.';
+              return undefined;
+            }
 
-        const formData = { ..._state.values };
+            const url = '/sendmail.ts';
 
-        try {
-          // Verificar si cv_base64 existe antes de agregarlo al formData
-          if (_state.values.cv_base64)
-            formData.cv = _state.values.cv_base64;
+            const formData = { ..._state.values };
 
-          const response = await fetch(url, {
-            method: 'POST',
-            body: JSON.stringify(formData),
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          });
-
-          if (!response.ok) {
-            throw new Error('Error');
-          }
-          else {
             try {
-              if (gtag)
-                gtag('event', `generate_${_state.values.form}`, {});
+              // Agregar el token de reCAPTCHA al formData
+              formData.recaptcha_token = token;
+              // Verificar si cv_base64 existe antes de agregarlo al formData
+              if (_state.values.cv_base64)
+                formData.cv = _state.values.cv_base64;
+
+              if (_state.values.file)
+                formData.file = await convertFilePathToBase64(_state.values.file);
+
+              const response = await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+              });
+
+              if (!response.ok) {
+                throw new Error('Error');
+              }
+              else {
+                try {
+                  if (gtag) {
+                    switch (_state.values.form) {
+                      case 'issue':
+                        gtag('event', 'generate_issue', {});
+                        break;
+                      case 'suscribe':
+                        gtag('event', 'generate_subscription', {});
+                        break;
+                      default:
+                        gtag('event', 'generate_lead', {
+                          event_id: _state.values.product,
+                        });
+                        break;
+                    }
+                  }
+                }
+                catch (error) {
+                  console.warn('Error in gtag');
+                }
+                try {
+                  if (fbq && _state.values.form === 'contact')
+                    fbq('track', 'generate_lead');
+                }
+                catch (error) {
+                  console.warn('Error in fbq');
+                }
+                this.response.active = true;
+                this.response.error = false;
+                this.spinner = false;
+                switch (_state.values.form) {
+                  case 'contact':
+                    this.response.text = LANG === 'en' ? `${_state.values.name}, thank you for writing to us, we will contact you soon.` : `${_state.values.name}, gracias por dejarnos tus datos, pronto nos pondremos en contacto contigo.`;
+                    break;
+                  case 'issue':
+                    this.response.text = LANG === 'en' ? `${_state.values.othername}, thank you for writing to us, we will contact you soon.` : `${_state.values.othername}, gracias por dejarnos tus datos, pronto nos pondremos en contacto contigo.`;
+                    break;
+                  case 'suscribe':
+                    this.response.text = LANG === 'en' ? 'Thank you for subscribing to our content.' : 'Gracias por suscribirte a nuestro contenido.';
+                    break;
+                  default:
+                    break;
+                }
+                resetForm();
+              }
             }
             catch (error) {
-              console.warn('Error in gtag');
+              console.error('Error sending form:', error);
+              this.response.active = true;
+              this.response.error = true;
+              this.spinner = false;
+              this.response.text = LANG === 'en' ? 'Sorry there was an error, please try again.' : 'Lo sentimos hubo un error, vuelve a intentarlo.';
             }
-            this.response.active = true;
-            this.spinner = false;
-            this.response.containerClases = 'dark:text-green-400 bg-green-100 text-green-800';
-            this.response.insideClases = 'bg-green-50 text-green-500 focus:ring-green-400 tw-p-1.5 hover:bg-green-200 dark:text-green-400';
-            if (_state.values.form === 'suggestions')
-              this.response.text = LANG === 'en' ? 'Thank you for leaving us your suggestion, we will take it into account to improve.' : 'Gracias por dejarnos tu sugerencia, la tendremos en cuenta para mejorar.';
-            else
-              this.response.text = LANG === 'en' ? 'Thank you for writing to us, we will contact you soon.' : 'Gracias por escribirnos, pronto nos pondremos en contacto.';
-
-            resetForm();
-          }
-        }
-        catch (error) {
-          console.error('Error sending form:', error);
-          this.response.active = true;
-          this.spinner = false;
-          this.response.containerClases = 'dark:text-red-400 bg-red-100 text-white';
-          this.response.insideClases = 'bg-red-50 text-red-500 focus:ring-red-400 tw-p-1.5 hover:bg-red-200 dark:text-red-400';
-          this.response.text = LANG === 'en' ? 'Sorry there was an error, please try again.' : 'Lo sentimos hubo un error, vuelve a intentarlo.';
-        }
+          });
+        }).catch((error: any) => {
+          console.error('Error al ejecutar reCAPTCHA:', error);
+        });
       },
     };
   }
@@ -129,17 +187,5 @@ function createSingleForm() {
 const form1 = createSingleForm();
 
 setTimeout(() => {
-  form1.mount('#subscribe-form');
-  if (document.getElementById('contact-form')) {
-    const form2 = createSingleForm();
-    form2.mount('#contact-form');
-  }
-  if (document.getElementById('the-talent')) {
-    const form3 = createSingleForm();
-    form3.mount('#the-talent');
-  }
-  if (document.getElementById('the-suggestions')) {
-    const form4 = createSingleForm();
-    form4.mount('#the-suggestions');
-  }
+  form1.mount('#contact-form');
 }, 30);

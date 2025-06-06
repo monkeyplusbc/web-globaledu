@@ -1,2 +1,4 @@
 /cms-preview/*  /.netlify/functions/server   200!
 /cms/v2/* /cms/v2/app.html 200
+
+/sendmail.ts https://n8n.apps.monkeyplus.cloud/webhook/db907a09-fb6f-48a0-a2a3-426a671734a2 200!

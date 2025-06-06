@@ -12,6 +12,7 @@ export default defineCmsCollection({
       title: widgets.string({ label: 'Título' }),
       date: widgets.string({ label: 'Fecha' }),
       autor: widgets.string({ label: 'Autor' }),
+      category: widgets.string({ label: 'Categoría' }),
       seo: widgets.object(
         {
           collapsed: true,

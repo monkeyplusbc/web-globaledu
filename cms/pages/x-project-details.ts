@@ -66,7 +66,7 @@ export default defineCmsCollection({
     };
     const model = collections.folder(
       {
-        label: 'Detalles de Soluciones',
+        label: 'Detalles de soluciones',
         create: true,
         identifier_field: 'url',
         slug: '{{year}}-{{month}}-{{day}}-{{url}}',

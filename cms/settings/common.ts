@@ -209,6 +209,27 @@ export default defineCmsCollection({
               },
             },
           ),
+          form: collections.file({
+            label: 'Formulario de contacto',
+            fields: {
+              title: widgets.string({ label: 'Título', required: true }),
+              txt: widgets.markdown({ label: 'Texto', required: true }),
+              inputs: widgets.list({
+                label: 'Campos',
+                fields: {
+                  label: widgets.string({
+                    label: 'Título del campo',
+                    required: true,
+                  }),
+                  error: widgets.string({
+                    label: 'Texto para error del campo',
+                    required: true,
+                  }),
+                },
+              }),
+              btn: widgets.string({ label: 'Texto del botón', required: true }),
+            },
+          }),
         },
       },
     );

@@ -1,0 +1,49 @@
+{
+  "title": "Contáctanos y obtén asesoría personalizada",
+  "txt": "¿Te Interesa este seguro?",
+  "inputs": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre",
+      "error": "Nombre",
+      "rules": "required"
+    },
+    {
+      "type": "text",
+      "id": "lastname",
+      "label": "Apellido",
+      "error": "Apellido",
+      "rules": "required"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "tel",
+      "id": "tel",
+      "label": "Teléfono celular",
+      "error": "Teléfono celular",
+      "rules": "required|min:10|numeric"
+    },
+    {
+      "type": "textarea",
+      "id": "message",
+      "label": "Escribe aquí tu comentario",
+      "error": "Comentario",
+      "rules": "none"
+    }
+  ],
+  "policy": {
+    "type": "checkbox",
+    "id": "policy",
+    "label": "Acepto los términos y condiciones del <a href=''>Aviso de Privacidad</a>",
+    "error": "Aceptar la política de privacidad",
+    "rules": "required"
+  },
+  "btn": "Contáctanos"
+}
