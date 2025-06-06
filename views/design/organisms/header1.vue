@@ -6,12 +6,12 @@ const { logos, menu, networks } = cms.$settings.common;
 </script>
 
 <template>
-  <header class="relative wrapper !bg-gray-100">
+  <header class="relative wrapper !bg-blue-100">
     <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
       <div class="container xl:flex-row lg:flex-row !flex-nowrap items-center">
         <div class="navbar-brand w-full">
           <mk-link to="home1">
-            <mk-picture :src="logos.logoDark.src" :alt="logos.logoDark.alt" :title="logos.logoDark.title" />
+            <mk-picture :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" />
           </mk-link>
         </div>
         <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">

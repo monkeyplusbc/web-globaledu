@@ -52,6 +52,6 @@
   <%~ it?.getBodyEndScripts() %>
   <script src="/assets/template/js/plugins.js"></script>
   <script src="/assets/template/js/theme.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=6Les8fEiAAAAAPFAurHKgqAOIsxgmcesG2FeQpJN"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfjjVArAAAAAJYPuRhUOijiybb3hE5YHkNNU2aB"></script>
 </body>
 </html>

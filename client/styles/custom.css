@@ -1,0 +1,10 @@
+.bg-gradient-yellow{
+  .h1, .h3, p, h1, h3{
+    color: #fff;
+  }
+  blockquote{
+    p{
+      color: #60697b !important;
+    }
+  }
+}
