@@ -16,6 +16,9 @@
             @apply bottom-0 delay-[0.5s];
         }
     }
+    .btn:hover{
+        @apply bg-primary text-white;
+    }
 }
 
 .cookie-customization-dialog{
