@@ -18,6 +18,7 @@ export default defineCmsCollection({
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           title: widgets.string({ label: 'Título' }),
+          description: widgets.markdown({ label: 'Descripción' }),
         },
       }),
     };

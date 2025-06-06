@@ -36,7 +36,7 @@ export default defineCmsCollection({
         },
       }),
       features: collections.file({
-        label: 'Conoce las unidades especializadas',
+        label: 'Nuestros cursos',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           pretitle: widgets.string({ label: 'Pretítulo' }),
@@ -126,7 +126,7 @@ export default defineCmsCollection({
         },
       }),
       heroCards: collections.file({
-        label: 'Aprender',
+        label: '¿Por qué aprender con Starters Academy?',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           items: widgets.list({
@@ -138,6 +138,28 @@ export default defineCmsCollection({
             },
           }),
           pretitle: widgets.string({ label: 'Pretítulo' }),
+          title: widgets.string({ label: 'Título' }),
+          txt: widgets.markdown({ label: 'Texto' }),
+          btn: widgets.object({
+            label: 'Boton',
+            fields: {
+              txt: widgets.string({ label: 'Texto Enlace' }),
+              link: widgets.object({
+                label: 'Enlace',
+                fields: linkOrButton(widgets),
+              }),
+            },
+            extraOptions: {
+              ...notNested,
+            },
+          }),
+        },
+      }),
+      heroLogo: collections.file({
+        label: 'Hero Testimonios',
+        fields: {
+          active: widgets.boolean({ label: 'Activar', default: true }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.ilustrations, hint: 'Medidas: 800*538px' }),
           title: widgets.string({ label: 'Título' }),
           txt: widgets.markdown({ label: 'Texto' }),
           btn: widgets.object({
@@ -172,7 +194,7 @@ export default defineCmsCollection({
         },
       }),
       team: collections.file({
-        label: 'Testimonios',
+        label: 'Equipo',
         fields: {
           active: widgets.boolean({ label: 'Activar', default: true }),
           pretitle: widgets.string({ label: 'Pretítulo' }),

@@ -1,10 +1,10 @@
 {
-  "title": "Title",
-  "description": "Descripción",
-  "keywords": "Keywords",
+  "title": "Blog | Consejos, Historias y Recursos para tu Camino Internacional - Global Edu Group",
+  "description": "Explora artículos, historias y recursos sobre educación, migración, idiomas y vida en Europa. Encuentra información útil y experiencias reales para planificar tu futuro con Global Edu Group.",
+  "keywords": "blog, Global Edu Group, educación internacional, migración, idiomas, recursos, consejos, historias, Europa, estudiantes, experiencias",
   "imageSocial": {
     "src": "/images/shared/meta.jpg",
-    "alt": "",
-    "title": ""
+    "alt": "Blog de Global Edu Group: recursos y consejos para tu camino internacional",
+    "title": "Blog - Global Edu Group"
   }
 }

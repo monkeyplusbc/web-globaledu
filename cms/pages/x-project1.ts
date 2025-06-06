@@ -23,7 +23,7 @@ export default defineCmsCollection({
     };
     const model = collections.files(
       {
-        label: 'Servicios',
+        label: 'Soluciones',
         files,
       },
     );

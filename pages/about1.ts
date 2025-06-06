@@ -7,7 +7,7 @@ export default definePage({
     },
     locales: {
       'es-ec': {
-        url: '/about1',
+        url: '/sobre-nosotros',
         seo: async ({ locale }) => {
           const seo = await queryContent(`${locale.code}/pages/about1/seo`).fetch();
           return {
