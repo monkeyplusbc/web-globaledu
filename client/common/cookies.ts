@@ -137,6 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const j = d.createElement(s); const dl = l != 'dataLayer' ? `&l=${l}` : ''; j.async = true; j.src
     // eslint-disable-next-line max-statements-per-line
     = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX'); // Reemplaza GTM-XXXXXX con tu ID de GTM
+    })(window, document, 'script', 'dataLayer', 'GTM-MV7QDG58'); // Reemplaza GTM-XXXXXX con tu ID de GTM
   }
 });
