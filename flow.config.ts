@@ -27,12 +27,11 @@ export default defineFlowConfig({
     dir: '/client',
   },
   netlifyCms: {
-    base: '/',
     rootDir: '/var/task',
     config: {
       backend: {
-        branch: 'main',
         name: 'git-gateway',
+        branch: 'main',
       },
     },
   },
