@@ -21,13 +21,15 @@
   },
   "gallery": [
     {
+      "id": 0.2289781285724546,
       "img": {
-        "src": "/images/projects/post2-1.jpg",
+        "src": "/images/projects/DBC2.jpeg",
         "alt": "",
         "title": ""
       }
     },
     {
+      "id": 0.8158676635515824,
       "img": {
         "src": "/images/projects/post2-2.jpg",
         "alt": "",
@@ -35,6 +37,7 @@
       }
     },
     {
+      "id": 0.5470071315251512,
       "img": {
         "src": "/images/projects/post2-3.jpg",
         "alt": "",
@@ -42,6 +45,7 @@
       }
     },
     {
+      "id": 0.160817320457457,
       "img": {
         "src": "/images/projects/post2-4.jpg",
         "alt": "",
