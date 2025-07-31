@@ -21,6 +21,7 @@
   },
   "gallery": [
     {
+      "id": 0.024893618369797643,
       "img": {
         "src": "/images/projects/post4-1.jpg",
         "alt": "",
@@ -28,6 +29,7 @@
       }
     },
     {
+      "id": 0.9398917957810151,
       "img": {
         "src": "/images/projects/post4-2.jpg",
         "alt": "",
@@ -35,6 +37,7 @@
       }
     },
     {
+      "id": 0.752397204921543,
       "img": {
         "src": "/images/projects/post4-3.jpg",
         "alt": "",
@@ -42,8 +45,9 @@
       }
     },
     {
+      "id": 0.5468206088950361,
       "img": {
-        "src": "/images/projects/post4-4.jpg",
+        "src": "/images/projects/DSC03054.JPG",
         "alt": "",
         "title": ""
       }
