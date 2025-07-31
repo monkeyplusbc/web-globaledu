@@ -9,19 +9,19 @@
     "title": "¿Quienes somos?",
     "lead": "Global Edu Group es un ecosistema empresarial que nació en Portugal y se expandió hacia Latinoamérica con un objetivo claro: acompañar de forma integral a estudiantes, profesionales y familias que buscan oportunidades de vida y crecimiento en Europa.",
     "description": "Desde el 2015 hemos acompañado a más de 1.200 personas en su camino hacia Portugal, España e Italia, combinando experiencia, innovación y cercanía humana. Nuestro grupo está conformado por cuatro unidades que trabajan de forma coordinada para cubrir cada fase del proceso migratorio y educativo.",
-    "list1": [
-    ],
-    "list2": [
-    ],
+    "list1": [],
+    "list2": [],
     "images": [
       {
+        "id": 0.48142781319407857,
         "img": {
-          "src": "/images/nosotros/nosotros-c.jpg",
+          "src": "/images/nosotros/IMG2993.JPG",
           "alt": "",
           "title": ""
         }
       },
       {
+        "id": 0.2927508163979108,
         "img": {
           "src": "/images/nosotros/nosotros-b.jpg",
           "alt": "",
