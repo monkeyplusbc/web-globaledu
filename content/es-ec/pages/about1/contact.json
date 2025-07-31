@@ -1,7 +1,7 @@
 {
   "active": true,
   "img": {
-    "src": "/images/nosotros/nosotros-d.jpg",
+    "src": "/images/nosotros/DSC02602.JPG",
     "alt": "",
     "title": ""
   },
@@ -13,14 +13,16 @@
   "title": "En Global Edu Group creemos en el poder de acompañar, transformar y abrir puertas. Si estás buscando expandir horizontes, estudiar, migrar o colaborar, estamos listos para escucharte.",
   "contactInfo": [
     {
+      "id": 0.7870099869851404,
       "icon": "uil:location-pin-alt",
       "title": "Portugal",
       "details": "Rua Comandante João Belo, Loja 7 Leiria, Portugal"
     },
     {
+      "id": 0.06317909410521494,
       "icon": "uil:location-pin-alt",
       "title": "Ecuador",
-      "details": "Edificio ZIRA, Oficina 703 Quito, Ecuador"
+      "details": "Edificio ZYRA, Oficina 703 Quito, Ecuador"
     }
   ]
 }
