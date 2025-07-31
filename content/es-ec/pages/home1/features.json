@@ -4,6 +4,7 @@
   "title": "Conoce las unidades especializadas de Global Edu Group y cómo trabajan juntas para acompañarte en tu proceso hacia Europa.",
   "items": [
     {
+      "id": 0.6073864548985494,
       "image": {
         "src": "/images/icons/lineal/search-2.svg",
         "alt": "",
@@ -20,8 +21,9 @@
       }
     },
     {
+      "id": 0.3561235286739939,
       "image": {
-        "src": "/images/icons/lineal/search-2.svg",
+        "src": "/images/icons/LogoColor.png",
         "alt": "",
         "title": ""
       },
@@ -36,6 +38,7 @@
       }
     },
     {
+      "id": 0.9612896695038038,
       "image": {
         "src": "/images/icons/lineal/search-2.svg",
         "alt": "",
@@ -52,6 +55,7 @@
       }
     },
     {
+      "id": 0.35920023489075337,
       "image": {
         "src": "/images/icons/lineal/search-2.svg",
         "alt": "",
