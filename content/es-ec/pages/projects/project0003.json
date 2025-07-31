@@ -21,13 +21,15 @@
   },
   "gallery": [
     {
+      "id": 0.5157198753214728,
       "img": {
-        "src": "/images/projects/post3-1.jpg",
+        "src": "/images/projects/DSC02509.JPG",
         "alt": "",
         "title": ""
       }
     },
     {
+      "id": 0.5413941371018692,
       "img": {
         "src": "/images/projects/post3-2.jpg",
         "alt": "",
@@ -35,6 +37,7 @@
       }
     },
     {
+      "id": 0.050288678265635434,
       "img": {
         "src": "/images/projects/post3-3.jpg",
         "alt": "",
@@ -42,6 +45,7 @@
       }
     },
     {
+      "id": 0.8048775532720486,
       "img": {
         "src": "/images/projects/post3-4.jpg",
         "alt": "",
