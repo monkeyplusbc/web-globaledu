@@ -11,13 +11,13 @@ const { logos, menu, networks } = cms.$settings.common;
       <div class="container xl:flex-row lg:flex-row !flex-nowrap items-center">
         <div class="navbar-brand w-full">
           <mk-link to="home1">
-            <mk-picture :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" />
+            <mk-picture :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" class="max-w-[230px]" />
           </mk-link>
         </div>
         <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
           <div class="offcanvas-header xl:hidden lg:hidden flex items-center justify-between flex-row p-6">
             <div class="!mb-0">
-              <mk-picture :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" />
+              <mk-picture :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" class="max-w-[230px]" />
             </div>
             <button type="button"
               class="btn-close btn-close-white mr-[-0.75rem] m-0 p-0 leading-none text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)] focus:outline-0"

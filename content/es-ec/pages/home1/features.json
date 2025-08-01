@@ -6,7 +6,7 @@
     {
       "id": 0.6073864548985494,
       "image": {
-        "src": "/images/icons/Logo_EG.svg",
+        "src": "/images/icons/logo_eg.svg",
         "alt": "",
         "title": ""
       },
@@ -15,15 +15,16 @@
       "btn": {
         "txt": "Ver más",
         "link": {
-          "url": "#",
-          "type": "a"
+          "url": "https://ecuadorglobalec.com",
+          "type": "a",
+          "blank": true
         }
       }
     },
     {
       "id": 0.3561235286739939,
       "image": {
-        "src": "/images/icons/LogoDBConsulting.svg",
+        "src": "/images/icons/logodbconsulting.svg",
         "alt": "",
         "title": ""
       },
@@ -32,15 +33,16 @@
       "btn": {
         "txt": "Ver más",
         "link": {
-          "url": "#",
-          "type": "a"
+          "url": "https://dbceu.com",
+          "type": "a",
+          "blank": true
         }
       }
     },
     {
       "id": 0.9612896695038038,
       "image": {
-        "src": "/images/icons/LogoStarters.svg",
+        "src": "/images/icons/logostarters.svg",
         "alt": "",
         "title": ""
       },
@@ -49,15 +51,16 @@
       "btn": {
         "txt": "Ver más",
         "link": {
-          "url": "#",
-          "type": "a"
+          "url": "https://sacademyeu.com",
+          "type": "a",
+          "blank": true
         }
       }
     },
     {
       "id": 0.35920023489075337,
       "image": {
-        "src": "/images/icons/LogoUnihabitat.svg",
+        "src": "/images/icons/logounihabitat.svg",
         "alt": "",
         "title": ""
       },

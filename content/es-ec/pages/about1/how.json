@@ -15,7 +15,7 @@
       {
         "id": 0.48142781319407857,
         "img": {
-          "src": "/images/nosotros/IMG2993.JPG",
+          "src": "/images/nosotros/img2993.jpg",
           "alt": "",
           "title": ""
         }
@@ -23,7 +23,7 @@
       {
         "id": 0.2927508163979108,
         "img": {
-          "src": "/images/nosotros/IMG3.JPG",
+          "src": "/images/nosotros/img3.jpg",
           "alt": "",
           "title": ""
         }
@@ -43,8 +43,9 @@
     "btn": {
       "txt": "Agenda una cita",
       "link": {
-        "url": "#",
-        "type": "a"
+        "url": "https://wa.link/go0mxh",
+        "type": "a",
+        "blank": true
       }
     },
     "items": [

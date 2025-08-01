@@ -37,11 +37,7 @@ defineProps({
           >
             <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
               <div class="card-body flex-[1_1_auto] p-[40px]">
-                <img
-                  :src="item.image.src"
-                  class="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-primary text-yellow !mb-3 m-[0_auto]"
-                  alt="image"
-                >
+                <mk-picture :src="item.image.src" :alt="item.image.alt" :title="item.image.title" class="svg-inject max-h-[85px] text-primary text-yellow !mb-3 m-[0_auto]" />
                 <div class="h4 !text-[1rem]" v-html="item.title" />
                 <p class="!mb-2" v-html="item.txt" />
                 <atoms-button :data="item.btn.link" class="more hover text-primary focus:text-primary hover:text-primary">

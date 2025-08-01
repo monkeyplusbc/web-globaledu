@@ -27,7 +27,7 @@ const { logos, menu, networks, footer } = cms.$settings.common;
           class="md:w-4/12 xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]"
         >
           <div class="widget text-gray-500">
-            <mk-picture class="!mb-4" :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" />
+            <mk-picture class="!mb-4 max-w-[230px]" :src="logos.logoLight.src" :alt="logos.logoLight.alt" :title="logos.logoLight.title" />
             <p class="!mb-4" v-html="footer.copyrigth" />
             <nav class="nav social social-white">
               <atoms-button

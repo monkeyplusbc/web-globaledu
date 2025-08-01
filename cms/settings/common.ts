@@ -150,46 +150,7 @@ export default defineCmsCollection({
             {
               label: 'Footer',
               fields: {
-                cta: widgets.object({
-                  label: 'Banner cta',
-                  fields: {
-                    txt: widgets.markdown({ label: 'Texto', required: true }),
-                    btn: widgets.object({
-                      label: 'Boton',
-                      fields: {
-                        txt: widgets.string({ label: 'Texto Enlace' }),
-                        link: widgets.object({
-                          label: 'Enlace',
-                          fields: linkOrButton(widgets),
-                        }),
-                      },
-                      extraOptions: {
-                        ...notNested,
-                      },
-                    }),
-                  },
-                }),
                 copyrigth: widgets.string({ label: 'Copyright', required: true }),
-                suscribe: widgets.object({
-                  label: 'Suscripción',
-                  fields: {
-                    title: widgets.string({ label: 'Títilo', required: true }),
-                    txt: widgets.string({ label: 'Texto', required: true }),
-                    form: widgets.object({
-                      label: 'Formulario',
-                      fields: {
-                        inputs: widgets.list({
-                          label: 'Campos',
-                          fields: {
-                            label: widgets.string({ label: 'Título del campo', required: true }),
-                            error: widgets.string({ label: 'Texto para error del campo', required: true }),
-                          },
-                        }),
-                        btn: widgets.string({ label: 'Texto del botón', required: true }),
-                      },
-                    }),
-                  },
-                }),
               },
             },
           ),

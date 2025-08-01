@@ -24,7 +24,7 @@ export default definePage({
 
         const projects = await req
           .$content(`${page.locale}/pages/projects`)
-          .sortBy('slug', 'desc')
+          .sortBy('slug', 'asc')
           .only(['url', 'seo', 'gallery', 'category'])
           .fetch();
 

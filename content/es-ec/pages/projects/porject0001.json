@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "EG Educación Global: Tu puerta a universidades europeas",
   "image": {
-    "src": "/images/projects/IMG3014.JPG",
+    "src": "/images/projects/img3014.jpg",
     "alt": "Logo de EG Educación Global",
     "title": "EG Educación Global"
   },
@@ -14,7 +14,7 @@
     "title": "EG Educación Global: Universidades Europeas en Latinoamérica",
     "description": "EG Educación Global: Consultora educativa con 10+ años de experiencia representando universidades europeas en Latinoamérica. Te acompañamos en tu admisión.",
     "keywords": "educación global, universidades europeas, estudiar en europa, consultora educativa, admisión universitaria, Latinoamérica",
-    "imageSocial": "/images/projects/b1.jpg",
+    "imageSocial": "/images/projects/img3014.jpg",
     "google": true,
     "twitter": true,
     "facebook": true
@@ -23,7 +23,7 @@
     {
       "id": 0.8993149273491842,
       "img": {
-        "src": "/images/projects/EG3.jpeg",
+        "src": "/images/projects/eg3.jpeg",
         "alt": "",
         "title": ""
       }
@@ -31,7 +31,7 @@
     {
       "id": 0.4018917424392512,
       "img": {
-        "src": "/images/projects/IMG_2585.JPG",
+        "src": "/images/projects/img_2585.jpg",
         "alt": "",
         "title": ""
       }
@@ -39,7 +39,7 @@
     {
       "id": 0.08157462823455586,
       "img": {
-        "src": "/images/projects/EG1.jpeg",
+        "src": "/images/projects/eg1.jpeg",
         "alt": "",
         "title": ""
       }
@@ -47,7 +47,7 @@
     {
       "id": 0.20589605286261436,
       "img": {
-        "src": "/images/projects/EG2.jpeg",
+        "src": "/images/projects/eg2.jpeg",
         "alt": "",
         "title": ""
       }

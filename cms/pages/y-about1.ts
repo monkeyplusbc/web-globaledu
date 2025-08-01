@@ -61,6 +61,19 @@ export default defineCmsCollection({
               title: widgets.string({ label: 'Subtítulo' }),
               lead: widgets.markdown({ label: 'Texto de Introducción' }),
               txt: widgets.markdown({ label: 'Texto' }),
+              btn: widgets.object({
+                label: 'Boton',
+                fields: {
+                  txt: widgets.string({ label: 'Texto Enlace' }),
+                  link: widgets.object({
+                    label: 'Enlace',
+                    fields: linkOrButton(widgets),
+                  }),
+                },
+                extraOptions: {
+                  ...notNested,
+                },
+              }),
               items: widgets.list({
                 label: 'Pasos de Trabajo',
                 fields: {

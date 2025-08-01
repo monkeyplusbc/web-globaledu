@@ -6,7 +6,7 @@
   "linkProject": "",
   "title": "DB Consulting: Tu camino seguro a Portugal",
   "image": {
-    "src": "/images/projects/DBC1.jpeg",
+    "src": "/images/projects/dbc1.jpeg",
     "alt": "DB Consulting - Consultora Migratoria Portugal",
     "title": "DB Consulting"
   },
@@ -14,7 +14,7 @@
     "title": "DB Consulting: Consultora Migratoria para Portugal",
     "description": "DB Consulting: Expertos en programas de visado, planificación documental y acompañamiento integral para establecerse en Portugal de forma segura y estructurada.",
     "keywords": "consultora migratoria, portugal, visado portugal, residencia portugal, planificación documental, inmigración portugal, mudarse a portugal",
-    "imageSocial": "/images/projects/b1.jpg",
+    "imageSocial": "/images/projects/dbc1.jpeg",
     "google": true,
     "twitter": true,
     "facebook": true
@@ -23,7 +23,7 @@
     {
       "id": 0.2289781285724546,
       "img": {
-        "src": "/images/projects/DBC2.jpeg",
+        "src": "/images/projects/dbc2.jpeg",
         "alt": "",
         "title": ""
       }
@@ -31,7 +31,7 @@
     {
       "id": 0.8158676635515824,
       "img": {
-        "src": "/images/projects/DBC4.jpeg",
+        "src": "/images/projects/dbc4.jpeg",
         "alt": "",
         "title": ""
       }
@@ -39,7 +39,7 @@
     {
       "id": 0.5470071315251512,
       "img": {
-        "src": "/images/projects/DBC5.jpeg",
+        "src": "/images/projects/dbc5.jpeg",
         "alt": "",
         "title": ""
       }
@@ -47,7 +47,7 @@
     {
       "id": 0.160817320457457,
       "img": {
-        "src": "/images/projects/DBC6.JPG",
+        "src": "/images/projects/dbc6.jpg",
         "alt": "",
         "title": ""
       }
