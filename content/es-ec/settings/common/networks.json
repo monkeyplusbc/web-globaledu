@@ -2,14 +2,16 @@
   "title": "Siguenos",
   "items": [
     {
+      "id": 0.9339904666998209,
       "icon": "uil:facebook-f",
       "link": {
-        "url": "#",
+        "url": "https://www.facebook.com/EcuadorGlobal",
         "type": "a",
         "blank": true
       }
     },
     {
+      "id": 0.37159756240916664,
       "icon": "uil:instagram",
       "link": {
         "url": "#",
@@ -18,6 +20,7 @@
       }
     },
     {
+      "id": 0.15666074684537812,
       "icon": "uil:linkedin",
       "link": {
         "url": "#",
@@ -26,6 +29,7 @@
       }
     },
     {
+      "id": 0.050182400218693246,
       "icon": "uil:whatsapp",
       "link": {
         "url": "#",
