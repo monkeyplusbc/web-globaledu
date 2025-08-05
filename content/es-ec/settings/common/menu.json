@@ -2,6 +2,7 @@
   "title": "Menú",
   "items": [
     {
+      "id": 0.5116165481231466,
       "txt": "Inicio",
       "link": {
         "url": "home1",
@@ -11,6 +12,7 @@
       "header": true
     },
     {
+      "id": 0.8590096465445567,
       "txt": "Nosotros",
       "link": {
         "url": "about1",
@@ -20,6 +22,7 @@
       "header": true
     },
     {
+      "id": 0.4029760650448676,
       "txt": "Soluciones",
       "link": {
         "url": "project1",
@@ -58,6 +61,7 @@
       "header": true
     },
     {
+      "id": 0.9429964188768095,
       "txt": "Blog",
       "link": {
         "url": "blog1",
@@ -67,6 +71,7 @@
       "header": true
     },
     {
+      "id": 0.9719541587709354,
       "txt": "Contactos",
       "link": {
         "url": "contact1",
@@ -98,7 +103,7 @@
   "help": {
     "active": true,
     "icon": "Información de Contácto",
-    "txt": "Portugal - Latinoamérica",
+    "txt": "",
     "contact": {
       "title": "Información de contacto",
       "address": "Portugal - Latinoamérica",
