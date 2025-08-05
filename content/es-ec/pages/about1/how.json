@@ -36,10 +36,10 @@
       "alt": "",
       "title": ""
     },
-    "head": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "title": "Puntos Destacados",
-    "lead": "",
-    "txt": "- Asesoría educativa con representación oficial de universidades europeas<br /> - Servicios migratorios legales y personalizados<br /> - Cursos de idiomas en vivo con profesores nativos<br /> - Gestión de alojamiento y logística local en Portugal<br /> - Presencia operativa en Portugal, Ecuador y otros países de la región<br /> - Más de 10 años de experiencia conectando LATAM con Europa",
+    "head": "Puntos Destacados",
+    "title": "",
+    "lead": "<ul><li>Asesoría educativa con representación oficial de universidades europeas</li><li>Servicios migratorios legales y personalizados</li><li>Cursos de idiomas en vivo con profesores nativos</li></ul>",
+    "txt": "<br>",
     "btn": {
       "txt": "Agenda una cita",
       "link": {
@@ -50,16 +50,19 @@
     },
     "items": [
       {
-        "title": "Lorem Ipsum",
-        "txt": "Nulla vitae elit libero pharetra augue."
+        "id": 0.1584765528486577,
+        "title": "",
+        "txt": "Gestión de alojamiento y logística local en Portugal"
       },
       {
-        "title": "Dolor Sit Amet",
-        "txt": "Vivamus sagittis lacus vel augue."
+        "id": 0.19738819997739943,
+        "title": "",
+        "txt": "Presencia operativa en Portugal, Ecuador y otros países de la región"
       },
       {
-        "title": "Consectetur",
-        "txt": "Cras mattis consectetur purus sit."
+        "id": 0.06082392742204956,
+        "title": "",
+        "txt": "Más de 10 años de experiencia conectando LATAM con Europa"
       }
     ]
   }
