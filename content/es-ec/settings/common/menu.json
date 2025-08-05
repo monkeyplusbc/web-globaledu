@@ -97,13 +97,13 @@
   },
   "help": {
     "active": true,
-    "icon": "material-symbols:info",
-    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet sem vitae neque facilisis fermentum.",
+    "icon": "Información de Contácto",
+    "txt": "Portugal - Latinoamérica",
     "contact": {
       "title": "Información de contacto",
-      "address": "Moonshine St. 14/05 Light City, London",
-      "email": "info@email.com",
-      "phone": "+593 99 9999 999"
+      "address": "Portugal - Latinoamérica",
+      "email": "ecuadorglob@outlook.es",
+      "phone": "+593 99 812 4725"
     },
     "terms": {
       "title": "Más información",
