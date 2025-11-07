@@ -102,7 +102,7 @@
   },
   "help": {
     "active": true,
-    "icon": "Información de Contácto",
+    "icon": "raphael:info",
     "txt": "",
     "contact": {
       "title": "Información de contacto",
