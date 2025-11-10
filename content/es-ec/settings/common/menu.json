@@ -102,7 +102,7 @@
   },
   "help": {
     "active": true,
-    "icon": "raphael:info",
+    "icon": "mdi-light:bell",
     "txt": "",
     "contact": {
       "title": "Información de contacto",
