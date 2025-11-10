@@ -1,41 +1,4 @@
 {
   "title": "Siguenos",
-  "items": [
-    {
-      "id": 0.9339904666998209,
-      "icon": "uil:facebook-f",
-      "link": {
-        "url": "https://www.facebook.com/EcuadorGlobal",
-        "type": "a",
-        "blank": true
-      }
-    },
-    {
-      "id": 0.37159756240916664,
-      "icon": "uil:instagram",
-      "link": {
-        "url": "https://www.instagram.com/eg_educacionglobal/",
-        "type": "a",
-        "blank": true
-      }
-    },
-    {
-      "id": 0.15666074684537812,
-      "icon": "uil:linkedin",
-      "link": {
-        "url": "#",
-        "type": "a",
-        "blank": true
-      }
-    },
-    {
-      "id": 0.050182400218693246,
-      "icon": "uil:whatsapp",
-      "link": {
-        "url": "https://wa.link/ivivf4",
-        "type": "a",
-        "blank": true
-      }
-    }
-  ]
+  "items": []
 }
