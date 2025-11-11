@@ -30,6 +30,7 @@
       },
       "submenu": [
         {
+          "id": 0.6387011456923413,
           "txt": "EG Educación Global",
           "link": {
             "url": "/soluciones/eg-educacion-global",
@@ -37,6 +38,7 @@
           }
         },
         {
+          "id": 0.8508169250983105,
           "txt": "DB Consulting",
           "link": {
             "url": "/soluciones/db-consulting",
@@ -44,6 +46,7 @@
           }
         },
         {
+          "id": 0.162671366666714,
           "txt": "Starters Academy",
           "link": {
             "url": "/soluciones/starters-academy",
@@ -51,6 +54,7 @@
           }
         },
         {
+          "id": 0.5886705400636387,
           "txt": "Unihabitat",
           "link": {
             "url": "/soluciones/unihabitat",
@@ -107,7 +111,7 @@
     "contact": {
       "title": "Información de contacto",
       "address": "Portugal - Latinoamérica",
-      "email": "info@ecuadorglobalec.com",
+      "email": "info@globaledug.com",
       "phone": "+351 929277866"
     },
     "terms": {
