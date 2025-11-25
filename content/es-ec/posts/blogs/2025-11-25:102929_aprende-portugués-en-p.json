@@ -1,0 +1,21 @@
+{
+  "body": [],
+  "url": "aprende-portugués",
+  "title": "Aprende portugués en Portugal con Starters Academy",
+  "date": "25 de noviembre",
+  "autor": "Starters Academy",
+  "category": "Educación de Idiomas",
+  "image": {
+    "src": "/images/blogs/post3.jpg",
+    "alt": "",
+    "title": ""
+  },
+  "seo": {
+    "title": "Aprende portugués en Portugal con Starters Academy",
+    "description": "Cursos de portugués para hispanohablantes en Portugal. Aprende con profesores nativos, niveles A1-B2 y certificación oficial.",
+    "keywords": "cursos-portugues-idioma",
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  }
+}
